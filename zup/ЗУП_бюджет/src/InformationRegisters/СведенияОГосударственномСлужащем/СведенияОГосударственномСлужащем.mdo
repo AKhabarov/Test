@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd97f687-8e2f-4b66-9702-ce723b3d79ff">
+  <producedTypes>
+    <selectionType typeId="3621f0a8-80df-422c-9072-be2b2a9d4175" valueTypeId="b4f3dcd0-e203-419d-9295-e1d5e279a007"/>
+    <listType typeId="3e2ab0dd-86c6-4c80-a77f-64919bd9a39e" valueTypeId="491a6aab-cf54-4de2-a6b0-ce663c5e47b8"/>
+    <managerType typeId="858045e1-a358-4616-b8cf-bb70abf334f0" valueTypeId="e2aec2dc-e8bf-4aaa-b80a-bb34e7ae7db7"/>
+    <recordSetType typeId="4c67fe3e-a96f-4c2c-9c5c-1a7a416df42b" valueTypeId="5beb79a1-a889-4677-9b5a-46c46aab74e2"/>
+    <recordKeyType typeId="5b5ac0f0-5e41-4356-833f-0fad6127c884" valueTypeId="81ae13ad-c9c8-4af8-ae7d-b5256c6ace59"/>
+    <recordType typeId="caa711c6-2a48-4d0a-9a01-06f6c8d64412" valueTypeId="0f80406a-99f6-4a0e-a642-6fe5abb511c6"/>
+    <recordManagerType typeId="23270d76-f031-4c13-bab1-501f1f3f6ca1" valueTypeId="37f84599-392b-427f-af78-d8f0be37ded5"/>
+  </producedTypes>
+  <name>СведенияОГосударственномСлужащем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения о государственном служащем</value>
+  </synonym>
+  <comment></comment>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a086cc5f-36af-443c-88f2-f718f25c7c3f">
+    <name>ЛичныйРеестровыйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Личный реестровый номер</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="8f9fe660-1841-4801-8513-73e1f5ca2099">
+    <name>СпособПоступленияНаСлужбу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ поступления на службу</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.СпособыПоступленияНаСлужбу</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="42f018d7-5641-43ec-8d68-36c7ecf9d341">
+    <name>Госслужащий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Госслужащий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

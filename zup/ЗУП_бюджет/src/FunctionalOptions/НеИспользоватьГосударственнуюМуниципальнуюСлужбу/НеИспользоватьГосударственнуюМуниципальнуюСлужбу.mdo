@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43b99a65-6833-4d12-9581-c0a19cbd1275">
+  <name>НеИспользоватьГосударственнуюМуниципальнуюСлужбу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не использовать государственную (муниципальную) службу</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.НеИспользоватьГосударственнуюМуниципальнуюСлужбу</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.НастройкиРасчетаЗарплатыРасширенный.Resource.ИспользоватьМатериальнуюПомощь</content>
+  <content>InformationRegister.НастройкиРасчетаЗарплатыРасширенный.Resource.ИспользоватьМатериальнуюПомощьПриОтпуске</content>
+  <content>InformationRegister.НастройкиРасчетаЗарплатыРасширенный.Resource.ИспользоватьЕдиновременнуюВыплатуКОтпуску</content>
+  <content>InformationRegister.НастройкиРасчетаЗарплатыРасширенный.Resource.ИспользоватьИндексациюЗаработка</content>
+</mdclass:FunctionalOption>

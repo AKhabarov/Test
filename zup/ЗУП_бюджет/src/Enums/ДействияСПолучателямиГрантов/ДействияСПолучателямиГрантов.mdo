@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13a0b11b-ac58-4735-ba91-0f8ea1d66ef7">
+  <producedTypes>
+    <refType typeId="2fed4009-4829-421e-96e3-44e210c30e5b" valueTypeId="f5cc5090-1e2e-4846-86a7-4e0e0bd9e5ea"/>
+    <listType typeId="925bcc92-10b1-4d45-929d-198fc0517d81" valueTypeId="62ddeff1-9fd6-49ee-8e2d-e30af5a4e16c"/>
+    <managerType typeId="f5a05def-4e83-409e-9489-0e14b54574c4" valueTypeId="5bcf5ea6-ef7e-423c-a092-e9203e715858"/>
+  </producedTypes>
+  <name>ДействияСПолучателямиГрантов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Действия с получателями грантов</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="64a9cb72-a039-4ebc-93fb-da6d4646148f">
+    <name>Утвердить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Утвердить</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="de4563d1-1675-4153-9bf8-fc0b7dabf858">
+    <name>Исключить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключить</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

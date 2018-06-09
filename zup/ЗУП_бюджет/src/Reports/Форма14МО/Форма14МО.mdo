@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="061b7958-95f2-429d-a995-7382318d404f">
+  <producedTypes>
+    <objectType typeId="bfae3629-d283-45fe-8864-698b8a118c77" valueTypeId="ab53a33c-5c01-47cd-91f4-9220633a1125"/>
+    <managerType typeId="dba6a28a-ca4b-4727-b8c5-cfa50144e2be" valueTypeId="9fd7d833-9944-4494-935d-d6d4f36a2fad"/>
+  </producedTypes>
+  <name>Форма14МО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет для заполнения формы 14-МО (Отчет о расходах и численности)</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.Форма14МО.Form.ФормаОтчета</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="020d5e71-281a-474a-80a7-77c044d085ca">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="9f9ebdda-7ebf-4a91-b7ee-cc26324fac13">
+    <name>Форма14МО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма14 МО</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="86d3e49c-1b91-4525-9403-c16e8395ffad">
+    <name>Форма14МО_по_179н</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма14 МО в соответствии с Приказом Минфина № 179н от 23.12.2010 г.</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="7cb502ef-8ec9-4f83-a024-ae367d4d72b1">
+    <name>Форма14МО_по_143н</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма14 МО в соответствии с Приказом Минфина № 143н от 04.12.2014 г.</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="4e0f2d6d-c981-4b87-aa1f-b504c1a6cb00">
+    <name>Форма14МО_по_86н</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма14 МО в соответствии с Приказом Минфина № 143н от 04.12.2014 г. (в ред. приказа от 16.06.2016 г. №86н)</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="dbdf3f1b-59cc-49cf-a12c-a5677abdaacd">
+    <name>Форма14МО_по_259н</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма14 МО в соответствии с Приказом Минфина № 259н от 28.12.2017 г.</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Report>

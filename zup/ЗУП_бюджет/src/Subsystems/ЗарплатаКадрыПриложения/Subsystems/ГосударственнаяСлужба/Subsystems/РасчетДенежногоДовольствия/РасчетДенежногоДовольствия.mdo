@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4713cda-d1bd-4b80-ae76-cade9ea11ee8">
+  <name>РасчетДенежногоДовольствия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет денежного довольствия</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.РасчетДенежногоДовольствия</content>
+  <content>AccumulationRegister.СоставСохраняемогоДенежногоСодержания</content>
+  <content>CommonForm.ВводДанныхДляРасчетаСохраняемогоДенежногоДовольствия</content>
+  <content>CommonForm.ВводДанныхДляРасчетаСреднегоДенежногоДовольствия</content>
+  <content>CommonModule.РасчетДенежногоДовольствияКлиент</content>
+  <content>CommonModule.РасчетДенежногоДовольствияКлиентСервер</content>
+  <content>InformationRegister.СреднемесячноеКоличествоДнейВоеннослужащих</content>
+  <content>InformationRegister.КоэффициентыИндексацииДенежногоДовольствия</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПриложения.Subsystem.ГосударственнаяСлужба</parentSubsystem>
+</mdclass:Subsystem>

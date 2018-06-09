@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65e3f355-0fbb-441f-a991-6de0a3c26ae7">
+  <name>ГрантыНеоблагаемыеНДФЛ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Гранты необлагаемые НДФЛ</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Constant.ИспользоватьГрантыНеоблагаемыеНДФЛ</content>
+  <content>Catalog.Гранты</content>
+  <content>Enum.ДействияСПолучателямиГрантов</content>
+  <content>Document.СписокПолучателейГранта</content>
+  <content>Enum.ДействияСоСпискомПолучателейГрантов</content>
+  <content>CommonModule.ГрантыНеоблагаемыеНДФЛ</content>
+  <content>d754f93e-f071-489e-9449-56c232579133</content>
+  <content>FunctionalOption.ИспользоватьГрантыНеоблагаемыеНДФЛ</content>
+  <content>InformationRegister.ПолучателиГрантов</content>
+  <content>Role.ДобавлениеИзменениеГрантов</content>
+  <content>Role.ЧтениеГрантов</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

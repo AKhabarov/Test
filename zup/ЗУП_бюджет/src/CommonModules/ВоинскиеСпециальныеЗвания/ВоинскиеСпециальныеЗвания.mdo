@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e87406f-0bc0-4ca8-acc9-047bcaed6961">
+  <name>ВоинскиеСпециальныеЗвания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Воинские специальные звания</value>
+  </synonym>
+  <comment></comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

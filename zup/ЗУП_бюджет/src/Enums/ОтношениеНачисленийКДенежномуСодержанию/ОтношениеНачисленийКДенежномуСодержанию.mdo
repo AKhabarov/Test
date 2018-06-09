@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06b0494b-00b7-4316-893b-403e5e91435c">
+  <producedTypes>
+    <refType typeId="cd8e3ae9-e5e2-4cf8-b649-a9f199e68c42" valueTypeId="d207fd7f-b162-4bbc-aeec-3938aa53ee9f"/>
+    <listType typeId="620dc675-9566-46c6-bdaf-9c93162e90ec" valueTypeId="ba3e3995-6cc9-4531-8628-0a5d41f7ece9"/>
+    <managerType typeId="ed33727a-c222-4ddc-916b-124d722c01ae" valueTypeId="28a2cb7b-acf9-4601-82f8-70520e6fe681"/>
+  </producedTypes>
+  <name>ОтношениеНачисленийКДенежномуСодержанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отношение начислений к денежному содержанию</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f319957b-ec5b-48b7-8f96-a3d97a4a0082">
+    <name>ДолжностнойОклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должностной оклад</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="aba5973a-6a60-44ba-8392-9ec5bb6bf961">
+    <name>ОкладЗаКлассныйЧин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оклад за классный чин</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b6fcc107-a35f-427a-854c-98eb83a6716f">
+    <name>ЕдиноеДенежноеВознаграждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единое денежное вознаграждение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4a721824-2fed-4199-bdde-fff6f57e637d">
+    <name>НадбавкаЗаВыслугуЛет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Надбавка за выслугу лет</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="6abb3a11-e60e-4a91-88c1-7ffabd355dea">
+    <name>НадбавкаЗаОсобыеУсловияСлужбы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ежемесячная надбавка за особые условия службы</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="9ec79023-4c23-485f-b7a4-4f5687fb747c">
+    <name>НадбавкаЗаСекретность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Надбавка за работу со сведениями, составляющими гостайну</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="80867a30-0bae-4b9f-8051-66d1fef8ae75">
+    <name>ЕжемесячноеДенежноеПоощрение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ежемесячное денежное поощрение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e5826e81-c370-4ba0-a339-314aa10ec6d8">
+    <name>ПремияЗаОсобоВажныеИСложныеЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Премия за особо важные и сложные задания</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f539d08c-6db9-4d70-bf11-4a876e2f17cc">
+    <name>ЕдиновременнаяВыплатаКОтпуску</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единовременная выплата при предоставлении ежегодного отпуска</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="9851f27c-75b7-486e-9d4f-68d4fe6783af">
+    <name>МатериальнаяПомощь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материальная помощь</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ad5a7bde-2591-4c80-a6c6-e816f945e0ea">
+    <name>ПрочиеЕжемесячныеВыплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочие ежемесячные выплаты</value>
+    </synonym>
+    <comment>Только для муниципальных служащих</comment>
+  </enumValues>
+  <enumValues uuid="2e3685b8-f3b1-4abd-b675-3ca320da95af">
+    <name>ПрочиеВыплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иные надбавки и выплаты</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d10b58e-43a7-4f2f-81e3-2561f0384ebb">
+  <producedTypes>
+    <selectionType typeId="882f9e2c-7c99-487f-9622-64f92a704762" valueTypeId="8d9e5001-080d-4007-a340-7f7190b75ce5"/>
+    <listType typeId="1cb5dc2b-270b-419d-a4fc-5f51b4ec72aa" valueTypeId="d97be78b-8c8b-4961-b812-e2dd46dbf843"/>
+    <managerType typeId="55e98dfb-3d32-4ee0-9880-7751cc7107ae" valueTypeId="ac221ee0-b045-449c-a867-e14f6c636639"/>
+    <recordSetType typeId="f11789d8-6ba4-4144-b662-c52c303c71c1" valueTypeId="0c4e178a-ef96-4cec-b4dc-e9ce0f16b7f2"/>
+    <recordKeyType typeId="d00c4e54-b93e-49a8-aa44-1c5af4a6ed84" valueTypeId="391ec98f-bf60-40db-987a-51c82b2df743"/>
+    <recordType typeId="a4ba5946-ffbf-4b58-9014-2fe5c5f13f28" valueTypeId="d38f44fc-27ee-4118-b8fe-828b4cd186c6"/>
+    <recordManagerType typeId="8987440d-c375-44e2-a102-f4c249323f95" valueTypeId="29afbb01-3c1e-4279-8073-ded5f8c94018"/>
+  </producedTypes>
+  <name>УдалитьОкладыНадбавкиПоКласснымЧинамРангам</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Оклады надбавки по классным чинам рангам</value>
+  </synonym>
+  <comment></comment>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4f8e9e1c-8bbe-48ed-833b-79d2b54cda29">
+    <name>Размер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f60c7e53-843b-46f9-92e7-cb965627853f">
+    <name>КлассныйЧинРанг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классный чин, ранг</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.КлассныеЧиныРанги</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="89c1bd32-c2fb-473a-8995-b185fdc3e806">
+    <name>РедактированиеИстории</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование истории</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ea8ed1a-7214-4934-a6b8-66e6de08fbb1">
+  <producedTypes>
+    <managerType typeId="ba93a8fa-c653-4d2a-8ac5-b0b6eeea62b9" valueTypeId="49e1378a-e5a7-4a14-89e7-595746c1354c"/>
+    <valueManagerType typeId="32f9ceeb-9135-4d38-a287-0f3cc1c53aa6" valueTypeId="4d98cba5-a4dc-42a3-bfaf-13412a92a62e"/>
+  </producedTypes>
+  <name>ИспользоватьДоступКНаркотическимСредствам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать доступ к наркотическим средствам</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

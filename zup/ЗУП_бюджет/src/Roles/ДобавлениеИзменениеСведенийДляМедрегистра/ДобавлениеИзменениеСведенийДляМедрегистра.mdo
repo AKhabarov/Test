@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11a49553-d8b3-410b-a434-7e41544646a2">
+  <name>ДобавлениеИзменениеСведенийДляМедрегистра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение сведений для федерального регистра медицинских работников</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

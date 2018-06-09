@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f06c6fee-5d8d-4833-9c08-263483abd316">
+  <name>ФедеральныйРегистрМедицинскихРаботников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Федеральный регистр медицинских работников</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Role.НастройкаМедрегистраОбщиеДанные</content>
+  <content>Role.ЧтениеСведенийДляМедРегистра</content>
+  <content>Catalog.КлассификаторыМедРегистра</content>
+  <content>Catalog.ЭлементыКлассификаторовМедРегистра</content>
+  <content>InformationRegister.ХарактеристикиОбъектовПоМедРегистру</content>
+  <content>XDTOPackage.ФорматОбменаШтатногоРасписанияСМедРегистром</content>
+  <content>Role.ДобавлениеИзменениеСведенийДляМедрегистра</content>
+  <content>Document.СведенияОРаботникахДляМедРегистра</content>
+  <content>XDTOPackage.ФорматОбменаСотрудниковСМедРегистром</content>
+  <content>Catalog.СведенияОРаботникахДляМедРегистраПрисоединенныеФайлы</content>
+  <content>EventSubscription.СформироватьФайлыФедеральногоРегистраМедицинскихРаботников</content>
+  <content>EventSubscription.ПереопределитьПолучаемуюФормуПрисоединенногоФайлаЗарплатаКадрыРасширенная</content>
+  <content>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайловДокументовЗарплатаКадрыРасширенная</content>
+  <content>Document.СведенияОШтатномРасписанииДляМедРегистра</content>
+  <content>Catalog.СведенияОШтатномРасписанииДляМедРегистраПрисоединенныеФайлы</content>
+  <content>DocumentJournal.СведенияДляФедеральногоРегистраМедицинскихРаботников</content>
+  <content>InformationRegister.СведенияОбОрганизацииДляМедРегистра</content>
+  <content>CommonPicture.ФедеральныйРегистрМедицинскихРаботников</content>
+  <content>Constant.ИспользоватьВыгрузкуВФедеральныйРегистрМедицинскихРаботников</content>
+  <content>FunctionalOption.ИспользоватьВыгрузкуВФедеральныйРегистрМедицинскихРаботников</content>
+  <content>InformationRegister.ХарактеристикиКадровыхСобытийПоМедРегистру</content>
+  <content>DataProcessor.ПанельНастроекРегистрМедицинскихРаботников</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПриложения.Subsystem.Медицина</parentSubsystem>
+</mdclass:Subsystem>

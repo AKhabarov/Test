@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e478b29-3c1f-46fb-b9b2-1913db79353c">
+  <producedTypes>
+    <refType typeId="ae4dca4f-7178-4ba9-9629-6094e5a6223c" valueTypeId="fafe55b7-49be-499f-9153-58a215c56823"/>
+    <listType typeId="d270ad4b-2180-475a-bbab-ce5bb6777951" valueTypeId="df7f8b99-a0e4-4778-8ef8-ab57af297088"/>
+    <managerType typeId="97089377-7ae2-4ff2-b59a-da6f65d509c0" valueTypeId="5f79ac3e-f9e1-4239-8b0a-c71f1a9f6654"/>
+  </producedTypes>
+  <name>ПоказателиТарификацииМедРаботников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели тарификации медицинских работников</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a3586635-6f3a-4264-9d99-a309e5c1eecc">
+    <name>ПроцентНадбавкиЗаВыслугуЛет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент повышения за непрерывный стаж</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="062d7c8a-ca02-4922-aa64-581796ad29db">
+    <name>ПроцентНадбавкиЗаУсловияТруда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент повышения за условия труда</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4e5bbe0f-90cf-48ce-b1d8-59666108503c">
+    <name>ПроцентНадбавкиЗаКатегорию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент повышения за категорию</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="136df8eb-f27f-43e1-9fcc-9b642f5b809d">
+    <name>ПроцентНадбавкиЗаУченуюСтепень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент повышения за ученую степень</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="255192c1-f985-48c3-8616-a1bcfb1f9fef">
+    <name>ПроцентНадбавкиЗаПочетноеЗвание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент повышения за почетное звание</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="13f6b16b-490d-4fe3-b446-1e9f88578c6d">
+    <name>ПовышениеЗаЕзду</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент повышения за езду</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="286ebd99-49e5-4ccc-94cc-3457e8d4f9d8">
+    <name>ПроцентСниженияОклада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент снижения оклада</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

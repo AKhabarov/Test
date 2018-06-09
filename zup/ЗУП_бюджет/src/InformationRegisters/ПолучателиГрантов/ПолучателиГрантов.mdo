@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e8347f6-aea0-494d-bda5-6e941c0b235a">
+  <producedTypes>
+    <selectionType typeId="e7aff091-4329-4686-b197-d14958fd2277" valueTypeId="ade8a6ca-a12a-4a49-be4b-964530bdb07d"/>
+    <listType typeId="9aaff0af-61fe-4714-b7d5-1217ed706142" valueTypeId="89404cec-c076-413a-9059-b3e9cc9ed210"/>
+    <managerType typeId="e76ccca7-abbc-498f-9646-b865ce788bec" valueTypeId="6fe7a32c-ba81-4648-8c37-aad75024f771"/>
+    <recordSetType typeId="9dc8aa13-e55b-4210-a8fa-a4130172ecea" valueTypeId="d07eb1d1-6d59-40e1-9f5f-dff2513efa54"/>
+    <recordKeyType typeId="cb7a7417-4940-420d-b402-adc07f944481" valueTypeId="18f3ccd4-35d7-4bab-a407-a7ba122c90f7"/>
+    <recordType typeId="127047e6-7de9-4a5d-a157-18f1a32fd826" valueTypeId="b82116ce-6bca-460b-8551-cfbcebcb0d7d"/>
+    <recordManagerType typeId="c6fb1753-aa42-49a0-bde6-dc5bc2a24dfb" valueTypeId="8ccb0a81-3d37-485b-9156-48c77302cefa"/>
+  </producedTypes>
+  <name>ПолучателиГрантов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получатели грантов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0e9abb10-5f65-4b7c-9a89-b5aa50ade21e">
+    <name>ЯвляетсяПолучателем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Является получателем</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4dd225a8-b8d2-4835-b6f5-7550747b9d68">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e5907eb7-9e2b-4816-b609-72b1061d09ca">
+    <name>Грант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грант</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Гранты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

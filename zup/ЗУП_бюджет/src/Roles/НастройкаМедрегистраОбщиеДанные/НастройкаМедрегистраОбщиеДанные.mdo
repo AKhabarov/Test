@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c8982c2-f8a6-4543-bf65-eac0fa6de55b">
+  <name>НастройкаМедрегистраОбщиеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка медрегистра общие данные</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

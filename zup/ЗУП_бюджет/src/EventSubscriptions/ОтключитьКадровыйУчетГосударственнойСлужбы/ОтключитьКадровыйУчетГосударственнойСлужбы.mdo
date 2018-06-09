@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09875eb2-ed0f-4196-a27f-d7dde4d1efe3">
+  <name>ОтключитьКадровыйУчетГосударственнойСлужбы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отключить кадровый учет государственной службы</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>ConstantValueManager.ИспользоватьКадровыйУчет</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ГосударственнаяСлужба.ОтключитьКадровыйУчетГосударственнойСлужбы</handler>
+</mdclass:EventSubscription>

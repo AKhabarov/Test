@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05c76546-adc1-4136-84b1-38a7e5417749">
+  <producedTypes>
+    <selectionType typeId="87b282ab-4be0-45d0-86fa-4c10019982e3" valueTypeId="340108eb-71e9-44c7-8d94-fe04ba9e2976"/>
+    <listType typeId="b8ec82b3-73a9-4c13-a9a6-1e9c2e2e7ce9" valueTypeId="945b2d4f-22dd-46cd-9c1d-6454aed07095"/>
+    <managerType typeId="34f4c1f3-a9c9-49a8-b226-f4c978acb0df" valueTypeId="54cf470b-b83b-4b3d-a90b-e6445070c32a"/>
+    <recordSetType typeId="c53c3544-3ddb-47c7-9fac-a22381d19ed6" valueTypeId="9d4e0f3b-d949-4490-bff0-148c1afc206c"/>
+    <recordKeyType typeId="4d944cf3-5d5e-423e-955a-bbec284f4d5f" valueTypeId="bcc03297-6ed2-425e-b4c3-2ea2c957a1e0"/>
+    <recordType typeId="1b445ed0-0fe4-40c5-bb85-61790b5b2d9f" valueTypeId="32a13a07-cfe5-4f93-bdf5-21e1fea720d1"/>
+    <recordManagerType typeId="6db70b68-413e-41d2-b6e2-bb7219a2aed6" valueTypeId="0058ecd2-a850-48b0-a5ce-af6afd2108d8"/>
+  </producedTypes>
+  <name>СвойстваСтатейФинансированияУчетБюджетныхУчреждений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойства статей финансирования учет бюджетных учреждений</value>
+  </synonym>
+  <comment></comment>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="267df70b-a72e-4372-bb73-ed7648217d4a">
+    <name>КФО</name>
+    <synonym>
+      <key>ru</key>
+      <value>КФО</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.КФО</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a1dc30ab-847c-4b14-9e7b-6f862e0f1c43">
+    <name>ИсточникФинансовогоОбеспечения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник финансового обеспечения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ИсточникиФинансовогоОбеспечения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Источник финансового обеспечения</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="437730ad-4843-4d54-b980-fa1656e6e0ca">
+    <name>СтатьяФинансирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья финансирования</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СтатьиФинансированияЗарплата</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

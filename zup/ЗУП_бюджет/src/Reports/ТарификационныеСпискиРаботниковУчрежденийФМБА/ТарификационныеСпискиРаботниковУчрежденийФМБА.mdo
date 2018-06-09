@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c0d0c82-cbff-4830-b511-c5e527bcd4ef">
+  <producedTypes>
+    <objectType typeId="fa6a4642-1763-42b3-889b-2210e178410c" valueTypeId="2bfa4e67-94b6-431b-89b4-f14d4475d920"/>
+    <managerType typeId="721918d7-4c1a-4daa-83af-a3b013214de2" valueTypeId="65b7076f-c776-4d6f-a8cd-0a52c7d53fa1"/>
+  </producedTypes>
+  <name>ТарификационныеСпискиРаботниковУчрежденийФМБА</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарификационные списки работников учреждений ФМБА</value>
+  </synonym>
+  <comment></comment>
+  <mainDataCompositionSchema>Report.ТарификационныеСпискиРаботниковУчрежденийФМБА.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="3a6d08f1-7b4b-4c1a-82b3-931579be2105">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

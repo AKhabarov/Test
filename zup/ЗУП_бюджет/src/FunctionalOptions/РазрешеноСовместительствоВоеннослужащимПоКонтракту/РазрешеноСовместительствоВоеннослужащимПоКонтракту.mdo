@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a06e3db5-1313-43b4-9e0c-589188c73aaa">
+  <name>РазрешеноСовместительствоВоеннослужащимПоКонтракту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разрешено совместительство военнослужащим по контракту</value>
+  </synonym>
+  <comment></comment>
+  <location>InformationRegister.НастройкиГосударственнойСлужбы.Resource.РазрешеноСовместительствоВоеннослужащимПоКонтракту</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ЗачислениеВСпискиЧасти.Attribute.ВидЗанятости</content>
+  <content>Document.ЗачислениеВСпискиЧастиСписком.TabularSection.Сотрудники.Attribute.ВидЗанятости</content>
+</mdclass:FunctionalOption>

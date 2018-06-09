@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bcf7dc0-2458-481e-a23d-c465f8538aea">
+  <producedTypes>
+    <objectType typeId="f229ba0a-cb4a-4791-aa17-9ebaf63bb6b7" valueTypeId="25e97f87-20fc-4479-961b-8508e58be00b"/>
+    <managerType typeId="a20e65ed-2c29-4a2d-b887-d51263680184" valueTypeId="057d52ce-6ff8-4960-9660-3839fedbc24b"/>
+  </producedTypes>
+  <name>ПечатьРасчетаСохраняемогоДенежногоСодержания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать расчета сохраняемого денежного содержания</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="40c21f9b-5efd-44a6-81d9-d9f01899c961">
+    <name>ПФ_MXL_РасчетСохраняемогоДенежногоСодержания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет сохраняемого денежного содержания</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:DataProcessor>

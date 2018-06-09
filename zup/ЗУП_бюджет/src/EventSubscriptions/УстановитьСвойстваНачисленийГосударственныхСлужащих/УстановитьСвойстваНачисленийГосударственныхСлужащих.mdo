@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f1357d8-91f4-4d08-8f56-7e3532c78df3">
+  <name>УстановитьСвойстваНачисленийГосударственныхСлужащих</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить свойства начислений государственных служащих</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>ChartOfCalculationTypesObject.Начисления</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ГосударственнаяСлужба.ПриЗаписиНачисленийГосударственныхСлужащих</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cae73fd7-441f-42de-ab89-2e424a755604">
+  <producedTypes>
+    <objectType typeId="d288f60f-52c3-4b60-ace0-7ad7012dc491" valueTypeId="4c18cb77-c7a6-4226-9d3b-b9ab8851310c"/>
+    <managerType typeId="1d57d8e6-66d9-409e-838d-cae91f875645" valueTypeId="44e79e2e-6d42-4279-b19a-d08822b4cdfb"/>
+  </producedTypes>
+  <name>СертификатыПоСпециальностиФизическихЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сертификаты по специальности физических лиц</value>
+  </synonym>
+  <comment></comment>
+  <mainDataCompositionSchema>Report.СертификатыПоСпециальностиФизическихЛиц.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="6fe3cda7-9ad1-4b21-86cf-b996de853661">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

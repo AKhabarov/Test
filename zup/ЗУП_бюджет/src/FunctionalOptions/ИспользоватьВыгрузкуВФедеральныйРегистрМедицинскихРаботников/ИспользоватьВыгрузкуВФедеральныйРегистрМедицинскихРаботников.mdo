@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64797668-b708-407c-8b25-da6bbbb2f3e9">
+  <name>ИспользоватьВыгрузкуВФедеральныйРегистрМедицинскихРаботников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать выгрузку в федеральный регистр медицинских работников</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.ИспользоватьВыгрузкуВФедеральныйРегистрМедицинскихРаботников</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.КлассификаторыМедРегистра</content>
+  <content>Catalog.КлассификаторыМедРегистра.Command.ЗагрузитьКлассификаторыМедрегистра</content>
+  <content>Catalog.ЭлементыКлассификаторовМедРегистра</content>
+  <content>Document.СведенияОРаботникахДляМедРегистра</content>
+  <content>Document.СведенияОШтатномРасписанииДляМедРегистра</content>
+  <content>DocumentJournal.СведенияДляФедеральногоРегистраМедицинскихРаботников</content>
+  <content>InformationRegister.СведенияОбОрганизацииДляМедРегистра</content>
+  <content>InformationRegister.ХарактеристикиОбъектовПоМедРегистру</content>
+  <content>InformationRegister.ХарактеристикиОбъектовПоМедРегистру.Command.УстановитьХарактеристикиОбъектаПоМедРегистру</content>
+  <content>InformationRegister.ХарактеристикиОбъектовПоМедРегистру.Command.КлассифицироватьОбъектыПоМедРегистру</content>
+  <content>InformationRegister.ХарактеристикиКадровыхСобытийПоМедРегистру</content>
+  <content>DataProcessor.ПанельНастроекРегистрМедицинскихРаботников</content>
+  <content>DataProcessor.ПанельНастроекРегистрМедицинскихРаботников.Command.РегистрМедицинскихРаботников</content>
+</mdclass:FunctionalOption>

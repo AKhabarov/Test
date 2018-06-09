@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d909c68f-1cca-445e-8641-237d08e901bf">
+  <name>РасчетДенежногоСодержания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет сохраняемого денежного содержания</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>AccumulationRegister.УдалитьДанныеОНачисленияхДляРасчетаСохраняемогоДенежногоСодержания</content>
+  <content>Enum.НазначениеРасчетаСохраняемогоДенежногоСодержания</content>
+  <content>InformationRegister.СреднемесячноеКоличествоДнейДляОплатыОтпусковГосслужащих</content>
+  <content>InformationRegister.СведенияОНачисленияхДляРасчетаСохраняемогоДенежногоСодержания</content>
+  <content>Enum.УчетНачисленийВСохраняемомДенежномСодержании</content>
+  <content>CommonForm.ВводДанныхДляРасчетаСохраняемогоДенежногоСодержания</content>
+  <content>CommonModule.РасчетДенежногоСодержания</content>
+  <content>CommonModule.РасчетДенежногоСодержанияКлиент</content>
+  <content>CommonModule.РасчетДенежногоСодержанияКлиентСервер</content>
+  <content>DataProcessor.ПечатьРасчетаСохраняемогоДенежногоСодержания</content>
+  <content>AccumulationRegister.СоставСохраняемогоДенежногоСодержания</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПриложения.Subsystem.ГосударственнаяСлужба</parentSubsystem>
+</mdclass:Subsystem>

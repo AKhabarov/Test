@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5206156-5410-48f0-8f77-02dbc49e5141">
+  <producedTypes>
+    <managerType typeId="b85ecd0e-70fc-4862-b71e-53e8d6b88dcd" valueTypeId="ddf2f2a2-f529-409c-bac8-735a896fd6a9"/>
+    <valueManagerType typeId="14f54c4c-84e1-43df-a1c7-ec881728a124" valueTypeId="9c799c27-eb19-4250-9b32-ebc6bd66041a"/>
+  </producedTypes>
+  <name>ИспользоватьГрантыНеоблагаемыеНДФЛ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать гранты необлагаемые НДФЛ</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

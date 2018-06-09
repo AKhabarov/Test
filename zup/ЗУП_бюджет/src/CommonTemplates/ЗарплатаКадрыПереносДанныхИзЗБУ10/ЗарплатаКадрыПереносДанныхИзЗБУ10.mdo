@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ca54257-30f0-4a09-b963-10bed5e67780">
+  <name>ЗарплатаКадрыПереносДанныхИзЗБУ10</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перенести данные из программы &quot;1С:Зарплата и кадры бюджетного учреждения 8&quot;, редакция 1.0</value>
+  </synonym>
+  <comment></comment>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

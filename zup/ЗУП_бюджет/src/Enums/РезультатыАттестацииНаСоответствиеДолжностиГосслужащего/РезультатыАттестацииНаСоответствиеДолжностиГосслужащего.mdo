@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="751b9ae3-9f6b-4e82-b780-77164af3252b">
+  <producedTypes>
+    <refType typeId="e2295759-0fe4-4540-b09e-815418b3def2" valueTypeId="e065e238-b218-4527-950d-4fe5324a5891"/>
+    <listType typeId="4d2c5400-3080-4607-bdac-79857635a2a5" valueTypeId="cac15f13-6f9f-4657-8936-0f83b3cd822a"/>
+    <managerType typeId="14f48144-f74b-4840-ae60-cc285a391277" valueTypeId="2458b099-9ab6-4900-a8e7-07d549d2deaa"/>
+  </producedTypes>
+  <name>РезультатыАттестацииНаСоответствиеДолжностиГосслужащего</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты аттестации на соответствие должности госслужащего</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4c1c2a7c-e71a-4d8e-98e6-cb17babf6c6c">
+    <name>НеСоответствуетЗамещаемойДолжности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не соответствует замещаемой должности</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="724a4f7d-3682-4d75-b042-23fbd197536e">
+    <name>СоответствуетЗамещаемойДолжности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствует замещаемой должности</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e84357c5-ebea-4c6f-8bd4-4ec8ec9a53e9">
+    <name>СоответствуетЗамещаемойДолжностиПриУспешномПолученииДопОбразования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствует замещаемой должности при успешном получении доп. образования</value>
+    </synonym>
+    <comment>Соответствует замещаемой должности при условии успешного получения дополнительного профессионального образования</comment>
+  </enumValues>
+  <enumValues uuid="e72d74d8-5a76-413f-a493-af1c8e518d49">
+    <name>СоответствуетЗамещаемойДолжностиРекомендуетсяВКадровыйРезерв</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствует замещаемой должности рекомендуется в кадровый резерв</value>
+    </synonym>
+    <comment>Cоответствует замещаемой должности и рекомендуется к включению в кадровый резерв</comment>
+  </enumValues>
+</mdclass:Enum>

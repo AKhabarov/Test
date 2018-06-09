@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fef5fb3-7e63-44a1-8c3e-96ea872c11b7">
+  <name>СпециальностиСертификатыФизическихЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Специальности, сертификаты физических лиц</value>
+  </synonym>
+  <comment></comment>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45c90060-cbae-4eac-9aa9-1b46951e5a36">
+  <producedTypes>
+    <refType typeId="73a7a4e3-7a8e-4381-80f0-38a618824b25" valueTypeId="d285e751-6b78-4e10-bcc6-11596653fc9a"/>
+    <listType typeId="730210ca-cf54-439e-81be-31b4750610a0" valueTypeId="89795287-26bd-418a-a888-f887856d6f3e"/>
+    <managerType typeId="0358ab70-ee2b-4670-a671-111900ea5f7f" valueTypeId="294c8a30-4dfe-48a5-b56a-a9913eaf6e78"/>
+  </producedTypes>
+  <name>СтатусыДопусков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы допусков</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9e46f869-5089-4aba-8448-2239900cda58">
+    <name>Недействителен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Недействителен</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="50fc3ac0-49dd-4a7e-b81b-4d582259870c">
+    <name>Действителен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действителен</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

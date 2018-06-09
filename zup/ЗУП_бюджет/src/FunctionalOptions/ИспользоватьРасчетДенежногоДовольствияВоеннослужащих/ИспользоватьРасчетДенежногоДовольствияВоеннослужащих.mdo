@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4415f78d-3d9d-4439-8b2a-6e01b95f6a50">
+  <name>ИспользоватьРасчетДенежногоДовольствияВоеннослужащих</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать расчет денежного довольствия военнослужащих</value>
+  </synonym>
+  <comment></comment>
+  <location>InformationRegister.НастройкиГосударственнойСлужбы.Resource.ИспользоватьРасчетДенежногоДовольствияВоеннослужащих</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>AccumulationRegister.СоставСохраняемогоДенежногоСодержания</content>
+  <content>InformationRegister.СреднемесячноеКоличествоДнейВоеннослужащих</content>
+</mdclass:FunctionalOption>

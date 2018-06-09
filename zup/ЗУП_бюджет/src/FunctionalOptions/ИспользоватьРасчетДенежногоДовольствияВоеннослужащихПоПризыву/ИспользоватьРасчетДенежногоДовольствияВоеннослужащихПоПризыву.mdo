@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8ccca52-b1b0-4b45-ad46-a440d3ed5e4a">
+  <name>ИспользоватьРасчетДенежногоДовольствияВоеннослужащихПоПризыву</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать расчет денежного довольствия военнослужащих по призыву</value>
+  </synonym>
+  <comment></comment>
+  <location>InformationRegister.НастройкиГосударственнойСлужбы.Resource.ИспользоватьРасчетДенежногоДовольствияВоеннослужащихПоПризыву</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ЗачислениеВСпискиЧасти.Attribute.ВидДоговора</content>
+  <content>Document.ЗачислениеВСпискиЧастиСписком.Attribute.ВидДоговора</content>
+  <content>InformationRegister.СреднемесячноеКоличествоДнейВоеннослужащих</content>
+</mdclass:FunctionalOption>

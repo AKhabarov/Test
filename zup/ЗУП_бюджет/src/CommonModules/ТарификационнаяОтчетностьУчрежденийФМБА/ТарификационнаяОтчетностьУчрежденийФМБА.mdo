@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="caea3687-2414-4ac7-bc2b-60ac34e3575e">
+  <name>ТарификационнаяОтчетностьУчрежденийФМБА</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарификационная отчетность учреждений ФМБА</value>
+  </synonym>
+  <comment></comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

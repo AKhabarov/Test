@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b761fb2-8c76-4268-8244-c47f5fb7f224">
+  <producedTypes>
+    <selectionType typeId="40fbb744-0d08-4728-951b-3dcd33e1c791" valueTypeId="79fee642-49d9-4eed-8bcb-da1a5d3a121f"/>
+    <listType typeId="2a9a1d77-cd5d-4ded-b643-b76d73354146" valueTypeId="f3b09c8c-b70f-42c5-93ad-6edb97807764"/>
+    <managerType typeId="6a2c6024-7c62-49b3-a337-1c204594a7a5" valueTypeId="4697be65-2584-4964-a3d7-886bf0cefb0e"/>
+    <recordSetType typeId="3df816e4-be62-40ec-af6a-e82e7d7eaba2" valueTypeId="f1f55ef5-f3cc-41fc-b164-94c37467bca4"/>
+    <recordKeyType typeId="8cab190b-a91e-4072-b024-0727fae29691" valueTypeId="d5b3ba0c-b52e-468a-8e2a-6cad328e29fb"/>
+    <recordType typeId="9a3325f3-74da-4d88-975e-25cbf8718d45" valueTypeId="049225e7-2a77-4e46-8863-108d4ead7a18"/>
+    <recordManagerType typeId="5e5a69d1-40fc-4981-83a7-82a6ba4869c0" valueTypeId="7184f852-af6c-4b74-8669-84f9daebd246"/>
+  </producedTypes>
+  <name>ХарактеристикиКадровыхСобытийПоМедРегистру</name>
+  <synonym>
+    <key>ru</key>
+    <value>Характеристики кадровых событий по федеральному регистру медицинских работников</value>
+  </synonym>
+  <comment></comment>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>КадровоеСобытие</value>
+  </recordPresentation>
+  <resources uuid="e95616a1-50a0-4aa1-8b72-11ff411eb903">
+    <name>ТипНачалаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип начала записи</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Владелец</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Catalog.КлассификаторыМедРегистра.ArrayOfRecordTypeIn</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fc0246a9-8aa3-4c86-86ee-c24a4b87f625">
+    <name>ТипОкончанияЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип окончания записи</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Владелец</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Catalog.КлассификаторыМедРегистра.ArrayOfRecordTypeOut</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="891a2696-a4ce-4dff-9ef4-35bf8cac2f95">
+    <name>РежимРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим работы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Владелец</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Catalog.КлассификаторыМедРегистра.ArrayOfRegime</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8732e30e-7eea-454f-b570-69b0860cf514">
+    <name>Прибыл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прибыл</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Владелец</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Catalog.КлассификаторыМедРегистра.ArrayOfRecordTypeInAdd</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="53c6ac03-0403-4c6b-b9a5-a03122968444">
+    <name>ДвижениеКадровНачало</name>
+    <synonym>
+      <key>ru</key>
+      <value>Движение кадров начало</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Владелец</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Catalog.КлассификаторыМедРегистра.ArrayOfRecordTypeMoveInOrg</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1e6e35f1-217d-4378-885e-73d28e46eed7">
+    <name>ЦелевойНабор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Целевой набор</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Владелец</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Catalog.КлассификаторыМедРегистра.ArrayOfYesNo</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="55671848-053e-48f4-b440-3ca47ba5c4f0">
+    <name>ВидОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид обучения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Владелец</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Catalog.КлассификаторыМедРегистра.ArrayOfRecordTypeInStudType</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="59b0fbca-cb9e-424d-bb31-942c560d4990">
+    <name>СубъектРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Субъект РФ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Владелец</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Catalog.КлассификаторыМедРегистра.ArrayOfTerritory</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f73f3ee6-9f7c-49c9-8a3f-730931078b2d">
+    <name>Страна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страна</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Владелец</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Catalog.КлассификаторыМедРегистра.ArrayOfCountry</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8241879a-604d-432b-b6d5-143bc5ea0f1a">
+    <name>ДвижениеКадровОкончание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Движение кадров окончание</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Владелец</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Catalog.КлассификаторыМедРегистра.ArrayOfRecordTypeMoveOutOrg</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4cd1b07f-7b8a-4c4d-86b2-7656c87f9663">
+    <name>ОснованиеУвольнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание увольнения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Владелец</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Catalog.КлассификаторыМедРегистра.ArrayOfRecordTypeOutDel</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8f11388c-e638-4008-b2f0-c61bd0988016">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.ИзменениеУсловийОплатыОтпускаПоУходуЗаРебенком</types>
+      <types>DocumentRef.КадровыйПеревод</types>
+      <types>DocumentRef.БольничныйЛист</types>
+      <types>DocumentRef.НачальнаяШтатнаяРасстановка</types>
+      <types>DocumentRef.Увольнение</types>
+      <types>DocumentRef.ПеремещениеВДругоеПодразделение</types>
+      <types>DocumentRef.ВосстановлениеВДолжности</types>
+      <types>DocumentRef.ВозвратИзОтпускаПоУходуЗаРебенком</types>
+      <types>DocumentRef.КадровыйПереводСписком</types>
+      <types>DocumentRef.ПриемНаРаботу</types>
+      <types>DocumentRef.УвольнениеСписком</types>
+      <types>DocumentRef.ОтпускПоУходуЗаРебенком</types>
+      <types>DocumentRef.ПриемНаРаботуСписком</types>
+      <types>DocumentRef.ПереносДанных</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f5f0a437-b337-48ea-8246-e001d4cefdf1">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

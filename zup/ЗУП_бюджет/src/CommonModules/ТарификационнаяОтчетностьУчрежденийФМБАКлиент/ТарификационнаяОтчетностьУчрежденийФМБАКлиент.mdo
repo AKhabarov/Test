@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05499d9f-bb88-4b3b-ab88-457e11a6931d">
+  <name>ТарификационнаяОтчетностьУчрежденийФМБАКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарификационная отчетность учреждений ФМБА (клиент)</value>
+  </synonym>
+  <comment></comment>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

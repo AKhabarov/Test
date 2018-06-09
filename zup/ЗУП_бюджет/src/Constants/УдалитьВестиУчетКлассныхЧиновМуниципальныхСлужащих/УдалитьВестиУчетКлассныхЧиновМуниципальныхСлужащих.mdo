@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4adb801d-00fc-4b28-b5e0-1274c2af55e9">
+  <producedTypes>
+    <managerType typeId="01604e34-997c-4157-ba83-74abb56dc525" valueTypeId="5fa95f5e-9794-49a7-9167-98b611822738"/>
+    <valueManagerType typeId="3ac7baf7-4181-4ba3-90be-d715c5e234bc" valueTypeId="929f0aa0-01c2-49e6-9927-c575390bc5c8"/>
+  </producedTypes>
+  <name>УдалитьВестиУчетКлассныхЧиновМуниципальныхСлужащих</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Вести учет классных чинов муниципальных служащих</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

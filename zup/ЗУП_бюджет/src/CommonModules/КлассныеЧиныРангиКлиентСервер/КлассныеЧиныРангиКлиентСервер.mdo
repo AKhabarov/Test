@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b6a3584-61bc-4efd-92d2-9f9afd319aa4">
+  <name>КлассныеЧиныРангиКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классные чины ранги клиент сервер</value>
+  </synonym>
+  <comment></comment>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

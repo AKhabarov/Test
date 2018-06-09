@@ -1,0 +1,1289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a7ccd24-fd1a-48a9-96a4-9f28e52824bd">
+  <producedTypes>
+    <objectType typeId="86101a68-17b0-4b1b-8f37-cdc4b5064eef" valueTypeId="e48368a2-49fe-4b77-b110-db11ffa948d3"/>
+    <refType typeId="477c587f-239f-4c9a-bb85-e253ba94420b" valueTypeId="308a8eb9-9f6d-448b-8b93-a684e4d6ca6a"/>
+    <selectionType typeId="5591a668-eca8-4563-8860-551d5fbfb85a" valueTypeId="64f493d5-15e4-4306-8ff9-80483553489e"/>
+    <listType typeId="12a1e1af-3090-4202-95b2-766bf5e42093" valueTypeId="d667b676-6a9b-4c35-8506-484f73c6d7ed"/>
+    <managerType typeId="8047d4bb-3392-4a90-9835-62cb27d5d3ad" valueTypeId="920e4923-7042-4126-9faf-2ee4a2581734"/>
+  </producedTypes>
+  <name>ОтражениеЗарплатыВБухучетеБюджетныхУчреждений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отражение зарплаты в бухучете</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ОтражениеЗарплатыВБухучетеБюджетныхУчреждений.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <name>Posted</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Date</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <format>
+      <key>ru</key>
+      <value>ДЛФ=D</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДЛФ=D</value>
+    </editFormat>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Number</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Отражение зарплаты в бухучете</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ОтражениеЗарплатыВБухучетеБюджетныхУчреждений.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ОтражениеЗарплатыВБухучетеБюджетныхУчреждений.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.ОтражениеЗарплатыВБухучетеБюджетныхУчреждений.Form.ФормаСписка</defaultChoiceForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>AccumulationRegister.ОценочныеОбязательства</registerRecords>
+  <registerRecords>AccumulationRegister.УдалитьВыплатаОтпусковЗаСчетРезерва</registerRecords>
+  <registerRecords>AccumulationRegister.ОценочныеОбязательстваПоСотрудникам</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="2e259d54-610b-4aab-b906-df5f4274edac">
+    <name>ПериодРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ='ММММ гггг'</value>
+    </format>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="2357f716-8f04-46cf-94bd-d6952ce7216c">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="0b0698ad-75af-4f56-9523-224cce3ee7b6">
+    <name>ЗарплатаОтраженаВБухучете</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарплата отражена в бухучете</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="f41a3e67-1590-4f91-ac73-90be0107b86c">
+    <name>Бухгалтер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бухгалтер</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="99bed525-cd77-4c39-b567-d3f9d9756e4f">
+    <name>КраткийСоставДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудники</value>
+    </synonym>
+    <comment>Краткий перечень сотрудников, включенных в документ</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="24f4a183-c8c9-4be8-9bec-b2c0b4a915fd">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="87d39cb3-f2bf-403f-a33a-0ea6f33e1713">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="cee990d2-6520-4f4e-aa53-f809eb7b9ae1">
+    <name>ИсточникФинансовогоОбеспечения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник финансового обеспечения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ИсточникиФинансовогоОбеспечения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="622ae96d-8157-4745-8185-196f9184751e">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="427fbd27-7c0e-4118-b047-d9249d65ea71">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="3b0ae364-11ae-4247-8e23-d7d549ff0d28">
+    <producedTypes>
+      <objectType typeId="aec759a3-8293-4c90-bfd5-01151f5018f8" valueTypeId="4966958a-9506-4ed0-85a5-537ecb1b062f"/>
+      <rowType typeId="d6e40066-76fc-4ce3-9f37-c3f148cf4215" valueTypeId="e4e2fa2f-8472-4609-8a47-8234eb013c91"/>
+    </producedTypes>
+    <name>НачисленнаяЗарплатаИВзносы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начисленная зарплата и взносы</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="d91c6bad-a018-4cd2-8b9f-6cd764b3f1ed">
+      <name>ФизическоеЛицо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Организация</name>
+        <field>Document.ОтражениеЗарплатыВБухучетеБюджетныхУчреждений.Attribute.Организация</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>Отбор.ВАрхиве</name>
+        <value xsi:type="core:BooleanValue"/>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8ea2911d-3cf8-4ba7-a093-fe302d6f41c6">
+      <name>Подразделение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подразделение</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ПодразделенияОрганизаций</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Document.ОтражениеЗарплатыВБухучетеБюджетныхУчреждений.Attribute.Организация</field>
+      </choiceParameterLinks>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9400a281-6ca9-4893-ab62-852188a087bf">
+      <name>ВидОперации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид операции</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>EnumRef.ВидыОперацийПоЗарплате</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.ГруппаОпераций</name>
+        <value xsi:type="core:StringValue">
+          <value>Начисления</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0632c69c-3d56-4c00-a2e6-bdba2b72dab4">
+      <name>СтатьяФинансирования</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья финансирования</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.СтатьиФинансированияЗарплата</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b6a61ba5-3873-4b54-85e0-9378714a4666">
+      <name>СтатьяРасходов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья расходов</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.СтатьиРасходовЗарплата</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2c92dee7-91c4-4967-a828-9d865f71a83d">
+      <name>СпособОтраженияЗарплатыВБухучете</name>
+      <synonym>
+        <key>ru</key>
+        <value>Способ отражения</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.СпособыОтраженияЗарплатыВБухУчете</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8fd01c26-5458-465c-9075-7ceb168506fa">
+      <name>ОблагаетсяЕНВД</name>
+      <synonym>
+        <key>ru</key>
+        <value>Облагается ЕНВД</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b14c5e68-fbed-4e7e-b747-6faac7056370">
+      <name>ВидНачисленияОплатыТрудаДляНУ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид начисления для налогового учета по налогу на прибыль</value>
+      </synonym>
+      <comment>Вид начисления для налогового учета по налогу на прибыль</comment>
+      <type>
+        <types>EnumRef.ВидыНачисленийОплатыТрудаДляНУ</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="eee5950d-953f-48c4-b16f-262c969f1224">
+      <name>ПериодПринятияРасходов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Период принятия расходов</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3115aa3c-df1f-42c5-804c-1719d9831e66">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="070f83d3-2788-4aba-9498-3c12d58125fc">
+      <name>ПФРСтраховая</name>
+      <synonym>
+        <key>ru</key>
+        <value>ПФР (страх.)</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b394f62a-01d1-4609-8a6e-361019442e70">
+      <name>ПФРНакопительная</name>
+      <synonym>
+        <key>ru</key>
+        <value>ПФР (накоп.)</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="20182801-8fe8-4559-b4e4-efa0220a1920">
+      <name>ФСС</name>
+      <synonym>
+        <key>ru</key>
+        <value>ФСС</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3e8b2722-3d43-4e65-b490-fefd42437c9a">
+      <name>ФФОМС</name>
+      <synonym>
+        <key>ru</key>
+        <value>ФФОМС</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5d89b859-bae7-445d-9a21-d5c3668e698f">
+      <name>ТФОМС</name>
+      <synonym>
+        <key>ru</key>
+        <value>ТФОМС</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9e467e7c-0e82-4f02-b4c7-971e84422877">
+      <name>ПФРНаДоплатуЛетчикам</name>
+      <synonym>
+        <key>ru</key>
+        <value>ПФР (летн. экип.)</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d379d814-2b7c-4c10-8e8d-55c2a75857ce">
+      <name>ПФРНаДоплатуШахтерам</name>
+      <synonym>
+        <key>ru</key>
+        <value>ПФР (шахтеры)</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="01973610-2af1-40bf-94f7-d254caba3d50">
+      <name>ПФРЗаЗанятыхНаПодземныхИВредныхРаботах</name>
+      <synonym>
+        <key>ru</key>
+        <value>ПФР (вредные работы)</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2848e242-2b33-4f47-99b3-f4f6cf9a0869">
+      <name>ПФРЗаЗанятыхНаТяжелыхИПрочихРаботах</name>
+      <synonym>
+        <key>ru</key>
+        <value>ПФР (тяжелые работы)</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4a28a2df-955a-45d8-bf01-c48e054c831a">
+      <name>ФССНесчастныеСлучаи</name>
+      <synonym>
+        <key>ru</key>
+        <value>ФСС (несч. случ.)</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1a73716e-5087-46ad-a45c-1bdff622fc30">
+      <name>ПФРПоСуммарномуТарифу</name>
+      <synonym>
+        <key>ru</key>
+        <value>ПФР (на ОПС)</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="212cd526-f204-4322-b8e5-dfc9fb206492">
+      <name>ПФРСПревышения</name>
+      <synonym>
+        <key>ru</key>
+        <value>ПФР - с базы сверх предельной величины</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="61731b19-65a9-4296-806f-8b05b4a77496">
+      <name>ПФРДоПредельнойВеличины</name>
+      <synonym>
+        <key>ru</key>
+        <value>ПФР - с базы до предельной величины</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2ef5cff5-dc18-4715-a608-ac01143b093c">
+      <name>ПФРЗаЗанятыхНаПодземныхИВредныхРаботахБезСпецОценки</name>
+      <synonym>
+        <key>ru</key>
+        <value>ПФР (вредные работы, без спец. оценки)</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="60f93f2f-2257-4386-a1d8-50aacce3f5bd">
+      <name>ПФРЗаЗанятыхНаПодземныхИВредныхРаботахСпецОценка</name>
+      <synonym>
+        <key>ru</key>
+        <value>ПФР (вредные работы, спец. оценка)</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="562ef095-0659-4fc9-9ded-e810324b55c7">
+      <name>ПФРЗаЗанятыхНаТяжелыхИПрочихРаботахБезСпецОценки</name>
+      <synonym>
+        <key>ru</key>
+        <value>ПФР (тяжелые работы, без спец. оценки)</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="74feab0a-8617-44e3-a25f-de38257d9375">
+      <name>ПФРЗаЗанятыхНаТяжелыхИПрочихРаботахСпецОценка</name>
+      <synonym>
+        <key>ru</key>
+        <value>ПФР (тяжелые работы, спец. оценка)</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="708767db-fea7-4b63-9bba-1bebc7f17d58">
+    <producedTypes>
+      <objectType typeId="11b2c7e9-3107-4a4f-951c-85af35d56e7d" valueTypeId="a16d7b54-40c7-4049-bb69-9aa1451f4801"/>
+      <rowType typeId="009960d5-9bf8-4eeb-8c38-b65337af1fd5" valueTypeId="8d4f132a-2256-4af7-bc0b-606747ed11d0"/>
+    </producedTypes>
+    <name>НачисленныйНДФЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начисленный НДФЛ</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="8ad235ae-835f-4fe2-bb6a-153da415b92c">
+      <name>ФизическоеЛицо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Организация</name>
+        <field>Document.ОтражениеЗарплатыВБухучетеБюджетныхУчреждений.Attribute.Организация</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>Отбор.ВАрхиве</name>
+        <value xsi:type="core:BooleanValue"/>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f8389293-a386-4554-9a37-97e5bc134ad6">
+      <name>ВидОперации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид операции</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>EnumRef.ВидыОперацийПоЗарплате</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.ГруппаОпераций</name>
+        <value xsi:type="core:StringValue">
+          <value>НДФЛ</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="56f4b1de-d955-4000-8855-5e342bc2076b">
+      <name>СтатьяФинансирования</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья финансирования</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.СтатьиФинансированияЗарплата</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d7bfd267-c05f-4319-b4d7-9f27e93730fd">
+      <name>СтатьяРасходов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья расходов</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.СтатьиРасходовЗарплата</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ce383f5a-6603-4097-8771-806f1fe81593">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="492fab6e-bfd6-40af-b60b-713089e8ba84">
+      <name>КодПоОКАТО</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код по ОКАТО</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>11</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6dba5ef5-3511-41cb-9f02-ef02dc973875">
+      <name>КодПоОКТМО</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код по ОКТМО</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>11</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="26317ca6-cc0d-4323-a884-8440576c9476">
+      <name>КПП</name>
+      <synonym>
+        <key>ru</key>
+        <value>КПП</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>9</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="42184cd7-9b1d-4946-ada9-52bb804bc435">
+      <name>КодНалоговогоОргана</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код налогового органа</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>4</length>
+          <fixed>true</fixed>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="c2123b16-8646-4bb6-afee-750f77b952c0">
+    <producedTypes>
+      <objectType typeId="995ebd7d-8d77-478e-bf92-419f394ed585" valueTypeId="b994a07f-7a1c-4ff0-b4ad-f23d01173c96"/>
+      <rowType typeId="b5ba606f-6dd1-4fc2-8083-4577a0f41a71" valueTypeId="878f165a-fc06-4ceb-a39c-a7feacd0be64"/>
+    </producedTypes>
+    <name>УдержаннаяЗарплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удержанная зарплата</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="72f40371-9cb2-4c90-8f8a-1163a8533fa5">
+      <name>ФизическоеЛицо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Организация</name>
+        <field>Document.ОтражениеЗарплатыВБухучетеБюджетныхУчреждений.Attribute.Организация</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>Отбор.ВАрхиве</name>
+        <value xsi:type="core:BooleanValue"/>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c33b5e95-a054-4636-b3bc-93b6b8b5a658">
+      <name>Подразделение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подразделение</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ПодразделенияОрганизаций</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Document.ОтражениеЗарплатыВБухучетеБюджетныхУчреждений.Attribute.Организация</field>
+      </choiceParameterLinks>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="357bc098-22fb-406d-b192-370759e78f3e">
+      <name>ВидОперации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид операции</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>EnumRef.ВидыОперацийПоЗарплате</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.ГруппаОпераций</name>
+        <value xsi:type="core:StringValue">
+          <value>Удержания</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0fb6e072-5788-451a-a3d8-63b28b030d3b">
+      <name>СтатьяФинансирования</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья финансирования</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.СтатьиФинансированияЗарплата</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bd6ef4f9-f4cc-4c19-a37d-29df4161e74b">
+      <name>СтатьяРасходов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья расходов</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.СтатьиРасходовЗарплата</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5733f453-d95c-4ee7-98d5-d2e9e907c2e4">
+      <name>Контрагент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получатель удержаний</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5bff3de7-30a3-4172-a398-0eebfe79a248">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="6dd3dd31-4261-48f5-9183-bb41fe660f08">
+    <producedTypes>
+      <objectType typeId="26051dfb-787e-4c42-9379-c19f691c0b93" valueTypeId="540ca98d-02d9-4e48-8c19-96b19531a022"/>
+      <rowType typeId="36d1e76c-e4d6-4912-a576-162cb7e7b54c" valueTypeId="7db36b21-fa38-4bae-8009-f187c6b4985e"/>
+    </producedTypes>
+    <name>ВыплатаОтпусковЗаСчетРезерва</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выплата отпусков за счет оценочных обязательств</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="d12f53ed-cc19-4627-84ed-650506dcca45">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6d50b3ed-fbda-4199-ac4b-929d0949fa73">
+      <name>ВидОперации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид операции</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>EnumRef.ВидыОперацийПоЗарплате</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.ГруппаОпераций</name>
+        <value xsi:type="core:StringValue">
+          <value>ЕжегодныеОтпускаОценочныеОбязательстваИРезервы</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5539e28f-de8e-44c9-aa88-79c79000c494">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b3354ac1-e9c7-4ea0-b130-49cc9095ed9d">
+      <name>СтраховыеВзносы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Страховые взносы</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7bf6cfeb-4ea5-49b5-91c2-b4fd75a847a8">
+      <name>ФССНесчастныеСлучаи</name>
+      <synonym>
+        <key>ru</key>
+        <value>ФСС (несч. случ.)</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5341b8b0-3cf8-4621-bd81-724d4c3572d4">
+      <name>СтатьяФинансирования</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья финансирования</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.СтатьиФинансированияЗарплата</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="c4db7736-481f-488f-9eab-2197a136ed4c">
+    <producedTypes>
+      <objectType typeId="4ede6cd5-4924-4aef-9cf9-64d962e9bb1f" valueTypeId="96811b4e-b87c-4491-9c2a-c3f63a451e71"/>
+      <rowType typeId="a799acc9-1ce2-4fe1-bba3-450e65c81181" valueTypeId="31287ce9-b37b-488a-8986-069cd6f9e075"/>
+    </producedTypes>
+    <name>ФизическиеЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физические лица</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="af156835-64c7-48e6-93aa-1688f98eb80c">
+      <name>ФизическоеЛицо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Физическое лицо</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

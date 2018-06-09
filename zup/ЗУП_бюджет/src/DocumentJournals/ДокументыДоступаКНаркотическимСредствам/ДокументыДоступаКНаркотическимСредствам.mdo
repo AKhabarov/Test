@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc5b08c6-a17f-49b9-9d32-c2370c89e23d">
+  <producedTypes>
+    <selectionType typeId="1ddb8030-17d7-412e-b477-4cc858f92cdc" valueTypeId="6808a197-84b2-4313-88b0-5a9ea62ba397"/>
+    <listType typeId="31396c51-0859-41d4-9eb2-df78502cf7be" valueTypeId="4e695d2a-69b0-4f91-a8a2-6264947f6558"/>
+    <managerType typeId="84d144f1-532f-4240-b162-96a7351119c4" valueTypeId="cc147e1e-0d79-4233-b596-9a9ec5f4f326"/>
+  </producedTypes>
+  <name>ДокументыДоступаКНаркотическимСредствам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы доступа к наркотическим средствам</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DocumentJournal.ДокументыДоступаКНаркотическимСредствам.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ДопускКНаркотическимВеществам</registeredDocuments>
+  <registeredDocuments>Document.ЗапросВФСКН</registeredDocuments>
+  <registeredDocuments>Document.ОтветФСКН</registeredDocuments>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <standardAttributes>
+    <name>Type</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Date</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <format>
+      <key>ru</key>
+      <value>ДЛФ=D</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДЛФ=D</value>
+    </editFormat>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Posted</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Number</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <columns uuid="c9dff4f3-3110-4079-bf25-bcef18a49bc5">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ДопускКНаркотическимВеществам.Attribute.Организация</references>
+    <references>Document.ЗапросВФСКН.Attribute.Организация</references>
+    <references>Document.ОтветФСКН.Attribute.Организация</references>
+  </columns>
+  <columns uuid="23694b10-ca1e-4d0b-9e12-3d629aaf84a1">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ЗапросВФСКН.Attribute.КраткийСоставДокумента</references>
+    <references>Document.ДопускКНаркотическимВеществам.Attribute.КраткийСоставДокумента</references>
+    <references>Document.ОтветФСКН.Attribute.КраткийСоставДокумента</references>
+  </columns>
+  <columns uuid="e54cf0be-327c-4248-8917-62b3cf9522b5">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ДопускКНаркотическимВеществам.Attribute.Ответственный</references>
+    <references>Document.ЗапросВФСКН.Attribute.Ответственный</references>
+    <references>Document.ОтветФСКН.Attribute.Ответственный</references>
+  </columns>
+  <columns uuid="c3bc0925-e751-4986-9bd3-17f98aab9471">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ЗапросВФСКН.Attribute.Комментарий</references>
+    <references>Document.ДопускКНаркотическимВеществам.Attribute.Комментарий</references>
+    <references>Document.ОтветФСКН.Attribute.Комментарий</references>
+  </columns>
+  <forms uuid="80df3429-e5a6-4f58-8f06-4ff61c2cf862">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

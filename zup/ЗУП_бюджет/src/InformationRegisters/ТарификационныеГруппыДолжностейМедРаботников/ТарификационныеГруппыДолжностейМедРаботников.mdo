@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40e277ef-3db9-4719-b7f5-f7d0fc0d4a17">
+  <producedTypes>
+    <selectionType typeId="b7a3b859-4796-4186-b76e-6f6619ea5aaa" valueTypeId="56c96251-aab0-40ec-9cc7-a5899398f8d7"/>
+    <listType typeId="e17a17e0-4926-441e-b68a-062a7a7b72b9" valueTypeId="80f167cb-9216-415f-9e49-d63438af5408"/>
+    <managerType typeId="0ae94fae-8af0-4e4b-94c8-c80ed50dcc13" valueTypeId="79c02ea4-f986-4588-ad9f-29ef59c6035a"/>
+    <recordSetType typeId="42144a84-27a8-4d1a-9baf-563a81961c8e" valueTypeId="5ecb5b03-747b-4a92-bca2-594b5fa2b2a3"/>
+    <recordKeyType typeId="fd7dc616-0db0-4651-a367-3f35be62d8f6" valueTypeId="19c7a4a0-b53f-441e-a405-57b1a5d26a6d"/>
+    <recordType typeId="be09bc96-8c42-4f14-bbbf-fdb27d6f2315" valueTypeId="c42200f0-dc13-49de-8316-f29dda72dba8"/>
+    <recordManagerType typeId="4ea83a0d-c8a3-45c2-9be0-c4594f2f1d6a" valueTypeId="6d4cdeb7-0035-4ec4-a537-dccfcc3a6057"/>
+  </producedTypes>
+  <name>ТарификационныеГруппыДолжностейМедРаботников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарификационные группы должностей медицинских работников</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5731e13f-22f6-451d-8a90-e5850c649f7c">
+    <name>ТарификационнаяГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тарификационная группа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ТарификационныеГруппыМедРаботников</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Работники на этой должности будут включены в указанный тарификационный список</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8331736b-3808-4ed5-ab37-96b7b08cf24b">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Должности</types>
+      <types>CatalogRef.ШтатноеРасписание</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

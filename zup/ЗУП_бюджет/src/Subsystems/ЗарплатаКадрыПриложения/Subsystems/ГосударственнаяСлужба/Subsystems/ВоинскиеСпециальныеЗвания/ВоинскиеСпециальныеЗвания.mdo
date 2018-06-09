@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69728bb2-a0df-4a15-9d4c-38ca1c3dfef0">
+  <name>ВоинскиеСпециальныеЗвания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Воинские, специальные звания</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.ВоинскиеСпециальныеЗвания</content>
+  <content>InformationRegister.УдалитьВоинскиеСпециальныеЗванияФизическихЛиц</content>
+  <content>InformationRegister.УдалитьОкладыПоВоинскимСпециальнымЗваниям</content>
+  <content>Role.ДобавлениеИзменениеВоинскихСпециальныхЗваний</content>
+  <content>Role.ЧтениеВоинскихСпециальныхЗвание</content>
+  <content>CommonForm.РедактированиеВоинскогоСпециальногоЗванияФизическогоЛица</content>
+  <content>Document.ПрисвоениеВоинскогоСпециальногоЗвания</content>
+  <content>Document.УтверждениеОкладовЗаВоинскиеСпециальныеЗвания</content>
+  <content>CommonModule.ВоинскиеСпециальныеЗвания</content>
+  <content>InformationRegister.ВоинскиеСпециальныеЗванияФизическихЛиц</content>
+  <content>InformationRegister.ОкладыПоВоинскимСпециальнымЗваниям</content>
+  <content>CommonModule.ВоинскиеСпециальныеЗванияКлиент</content>
+  <content>CommonModule.ВоинскиеСпециальныеЗванияКлиентСервер</content>
+  <content>Document.ПрисвоениеВоинскогоСпециальногоЗванияСписком</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПриложения.Subsystem.ГосударственнаяСлужба</parentSubsystem>
+</mdclass:Subsystem>

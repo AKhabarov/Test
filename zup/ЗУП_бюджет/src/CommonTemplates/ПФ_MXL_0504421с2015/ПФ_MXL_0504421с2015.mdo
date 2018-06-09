@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60732618-e1e9-4406-a028-79213ee30b34">
+  <name>ПФ_MXL_0504421с2015</name>
+  <synonym>
+    <key>ru</key>
+    <value>Табель учета рабочего времени (0504421) с 2015 года</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonTemplate>

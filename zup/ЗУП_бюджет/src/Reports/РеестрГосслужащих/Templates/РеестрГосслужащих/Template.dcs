@@ -1,0 +1,1530 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>КадровыеДанныеГосслужащих</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.Отчество</dataPath>
+			<field>Отчество</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчество</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.ПочетноеЗвание</dataPath>
+			<field>ПочетноеЗвание</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Почетное звание</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СведенияОКонтракте.ДатаОкончания</dataPath>
+			<field>ДатаОкончания</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата окончания</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>DateTime</v8:DateFractions>
+				</v8:DateQualifiers>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ДЛФ=D</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СведенияОМестеРаботы.ТабельныйНомер</dataPath>
+			<field>ТабельныйНомер</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Табельный номер</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.Специальности</dataPath>
+			<field>Специальности</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Специальности</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СведенияОКонтракте.ДолжностьПредставителяНанимателя</dataPath>
+			<field>ДолжностьПредставителяНанимателя</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Должность представителя нанимателя</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.СостояниеВБраке</dataPath>
+			<field>СостояниеВБраке</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Состояние в браке</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.Профессии</dataPath>
+			<field>Профессии</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Профессии</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СведенияОКонтракте.ПредставительНанимателя</dataPath>
+			<field>ПредставительНанимателя</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Представитель нанимателя</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.Пол</dataPath>
+			<field>Пол</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пол</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СведенияОКонтракте.ТрудовойДоговорДата</dataPath>
+			<field>ТрудовойДоговорДата</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Трудовой договор дата</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>DateTime</v8:DateFractions>
+				</v8:DateQualifiers>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ДЛФ=D</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СведенияОМестеРаботы.Должность</dataPath>
+			<field>Должность</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Должность</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СведенияОКонтракте.ТрудовойДоговорНомер</dataPath>
+			<field>ТрудовойДоговорНомер</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Трудовой договор номер</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.Награды</dataPath>
+			<field>Награды</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Награды</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.Имя</dataPath>
+			<field>Имя</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>.Имя</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.Фамилия</dataPath>
+			<field>Фамилия</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Фамилия</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СведенияОКонтракте.СрочныйДоговор</dataPath>
+			<field>СрочныйДоговор</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Срочный договор</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.ДатаРождения</dataPath>
+			<field>ДатаРождения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата рождения</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>DateTime</v8:DateFractions>
+				</v8:DateQualifiers>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ДЛФ=D</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.ИНН</dataPath>
+			<field>ИНН</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ИНН</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СведенияОКонтракте.ДатаНачала</dataPath>
+			<field>ДатаНачала</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата начала</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>DateTime</v8:DateFractions>
+				</v8:DateQualifiers>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ДЛФ=D</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СведенияОКонтракте.НомерДоговораКонтракта</dataPath>
+			<field>НомерДоговораКонтракта</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номер договора контракта</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.СоставСемьи</dataPath>
+			<field>СоставСемьи</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Состав семьи</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СведенияОМестеРаботы.ДатаУвольнения</dataPath>
+			<field>ДатаУвольнения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата увольнения</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>DateTime</v8:DateFractions>
+				</v8:DateQualifiers>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ДЛФ=D</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.ПолученныеОбразования</dataPath>
+			<field>ПолученныеОбразования</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Полученные образования</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организация</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.Организации</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.ТрудоваяДеятельность</dataPath>
+			<field>ТрудоваяДеятельность</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Трудовая деятельность</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.МестоРождения</dataPath>
+			<field>МестоРождения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Место рождения</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.ФИОПолные</dataPath>
+			<field>ФИОПолные</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ФИОПолные</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.ЗнанияЯзыков</dataPath>
+			<field>ЗнанияЯзыков</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Знания языков</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СведенияОМестеРаботы.Подразделение</dataPath>
+			<field>Подразделение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подразделение</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СведенияОКонтракте.СрокЗаключенияДоговора</dataPath>
+			<field>СрокЗаключенияДоговора</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Срок заключения договора</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СведенияОМестеРаботы.ТарифнаяСетка</dataPath>
+			<field>ТарифнаяСетка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тарифная сетка</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СведенияОМестеРаботы.ДатаПриема</dataPath>
+			<field>ДатаПриема</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата приема</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>DateTime</v8:DateFractions>
+				</v8:DateQualifiers>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ДЛФ=D</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.ФизическоеЛицо</dataPath>
+			<field>ФизическоеЛицо</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Физическое лицо</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СведенияОМестеРаботы.ГоловнаяОрганизация</dataPath>
+			<field>ГоловнаяОрганизация</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Головная организация</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СведенияОКонтракте.ОборудованиеРабочегоМеста</dataPath>
+			<field>ОборудованиеРабочегоМеста</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оборудование рабочего места</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.СтраховойНомерПФР</dataPath>
+			<field>СтраховойНомерПФР</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страховой номер ПФР</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СведенияОКонтракте.ВидАктаГосоргана</dataPath>
+			<field>ВидАктаГосоргана</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид акта госоргана</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СведенияОМестеРаботы.ДолжностьПоШтатномуРасписанию</dataPath>
+			<field>ДолжностьПоШтатномуРасписанию</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Должность по штатному расписанию</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СведенияОКонтракте.ИныеУсловияДоговора</dataPath>
+			<field>ИныеУсловияДоговора</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Иные условия договора</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СведенияОМестеРаботы.ВидЗанятости</dataPath>
+			<field>ВидЗанятости</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид занятости</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СведенияОКонтракте.ДатаДоговораКонтракта</dataPath>
+			<field>ДатаДоговораКонтракта</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата договора контракта</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ДЛФ=D</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сотрудник</dataPath>
+			<field>Сотрудник</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сотрудник</v8:content>
+				</v8:item>
+			</title>
+			<presentationExpression>ЛичныеДанные.ФИОПолные</presentationExpression>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.Документы</dataPath>
+			<field>Документы</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документы</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.Страна</dataPath>
+			<field>Страна</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страна</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.РазрядКатегория</dataPath>
+			<field>РазрядКатегория</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Разряд категория</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОснованиеПредставителя</dataPath>
+			<field>ОснованиеПредставителя</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Основание представителя</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.УченоеЗвание</dataPath>
+			<field>УченоеЗвание</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ученое звание</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.УченаяСтепень</dataPath>
+			<field>УченаяСтепень</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ученая степень</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеГосслужащего.ЛичныйРеестровыйНомер</dataPath>
+			<field>ЛичныйРеестровыйНомер</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Личный реестровый номер</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.ОбщийСтажМесяцев</dataPath>
+			<field>ОбщийСтажМесяцев</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Общий стаж месяцев</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.ОбщийСтажДней</dataPath>
+			<field>ОбщийСтажДней</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Общий стаж дней</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>0</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.ОбщийСтажЛет</dataPath>
+			<field>ОбщийСтажЛет</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Общий стаж лет</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>0</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеГосслужащего.ВключаетсяВРеестрГосслужащих</dataPath>
+			<field>ВключаетсяВРеестрГосслужащих</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Включается в реестр госслужащих</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldFolder">
+			<dataPath>ЛичныеДанные</dataPath>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Личные данные</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldFolder">
+			<dataPath>ДанныеГосслужащего</dataPath>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Данные госслужащего</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldFolder">
+			<dataPath>СведенияОКонтракте</dataPath>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сведения о контракте</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldFolder">
+			<dataPath>СведенияОМестеРаботы</dataPath>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сведения о месте работы</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеГосслужащего.ВыслугаЛетНаГосударственнойСлужбеДней</dataPath>
+			<field>ВыслугаЛетНаГосударственнойСлужбеДней</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выслуга лет на государственной службе дней</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеГосслужащего.ВыслугаЛетНаГосударственнойСлужбеЛет</dataPath>
+			<field>ВыслугаЛетНаГосударственнойСлужбеЛет</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выслуга лет на государственной службе лет</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеГосслужащего.ВыслугаЛетНаГосударственнойСлужбеМесяцев</dataPath>
+			<field>ВыслугаЛетНаГосударственнойСлужбеМесяцев</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выслуга лет на государственной службе месяцев</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеГосслужащего.КлассныйЧинРангДолжности</dataPath>
+			<field>КлассныйЧинРангДолжности</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Классный чин ранг должности</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеГосслужащего.КлассныйЧинРанг</dataPath>
+			<field>КлассныйЧинРанг</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Классный чин ранг</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.ПовышениеКвалификации</dataPath>
+			<field>ПовышениеКвалификации</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Повышение квалификации</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.Переподготовка</dataPath>
+			<field>Переподготовка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Переподготовка</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеГосслужащего.КлассныйЧинРангПериодРегистрации</dataPath>
+			<field>КлассныйЧинРангПериодРегистрации</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Классный чин ранг дата присвоения</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Сотрудники.Ссылка КАК Сотрудник,
+	&amp;Период КАК Период
+ПОМЕСТИТЬ ВТСотрудники
+{ВЫБРАТЬ
+	Сотрудник.*}
+ИЗ
+	Справочник.Сотрудники КАК Сотрудники
+{ГДЕ
+	Сотрудники.Ссылка.* КАК Сотрудник,
+	Сотрудники.Код КАК ТабельныйНомер,
+	Сотрудники.ФизическоеЛицо.*,
+	Сотрудники.ГоловнаяОрганизация.*,
+	Сотрудники.ФизическоеЛицо.Пол КАК Пол,
+	Сотрудники.ФизическоеЛицо.ДатаРождения КАК ДатаРождения,
+	Сотрудники.ФизическоеЛицо.ИНН КАК ИНН,
+	Сотрудники.ФизическоеЛицо.СтраховойНомерПФР КАК СтраховойНомерПФР,
+	Сотрудники.ФизическоеЛицо.МестоРождения КАК МестоРождения}
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ЗНАЧЕНИЕ(Справочник.Сотрудники.ПустаяСсылка) КАК Сотрудник,
+	"" КАК ТабельныйНомер,
+	"" КАК ЛичныйРеестровыйНомер,
+	ЗНАЧЕНИЕ(Справочник.ФизическиеЛица.ПустаяСсылка) КАК ФизическоеЛицо,
+	ЗНАЧЕНИЕ(Справочник.Организации.ПустаяСсылка) КАК ГоловнаяОрганизация,
+	ЗНАЧЕНИЕ(Перечисление.ВидыЗанятости.ПустаяСсылка) КАК ВидЗанятости,
+	ЗНАЧЕНИЕ(Справочник.Организации.ПустаяСсылка) КАК Организация,
+	ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка) КАК Подразделение,
+	ЗНАЧЕНИЕ(Справочник.Должности.ПустаяСсылка) КАК Должность,
+	ЗНАЧЕНИЕ(Справочник.ШтатноеРасписание.ПустаяСсылка) КАК ДолжностьПоШтатномуРасписанию,
+	ЗНАЧЕНИЕ(Справочник.РазрядыКатегорииДолжностей.ПустаяСсылка) КАК РазрядКатегория,
+	ЗНАЧЕНИЕ(Справочник.ТарифныеСетки.ПустаяСсылка) КАК ТарифнаяСетка,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ДатаПриема,
+	"" КАК ТрудовойДоговорНомер,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ТрудовойДоговорДата,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ДатаУвольнения,
+	ЗНАЧЕНИЕ(Перечисление.ПолФизическогоЛица.ПустаяСсылка) КАК Пол,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ДатаРождения,
+	ВЫРАЗИТЬ("" КАК СТРОКА) КАК ИНН,
+	ВЫРАЗИТЬ("" КАК СТРОКА) КАК СтраховойНомерПФР,
+	ВЫРАЗИТЬ("" КАК СТРОКА) КАК МестоРождения,
+	ЗНАЧЕНИЕ(Справочник.СтраныМира.ПустаяСсылка) КАК Страна,
+	ВЫРАЗИТЬ("" КАК СТРОКА) КАК Фамилия,
+	ВЫРАЗИТЬ("" КАК СТРОКА) КАК Имя,
+	ВЫРАЗИТЬ("" КАК СТРОКА) КАК Отчество,
+	ВЫРАЗИТЬ("" КАК СТРОКА) КАК ФИОПолные,
+	ЗНАЧЕНИЕ(Справочник.СостояниеВБраке.ПустаяСсылка) КАК СостояниеВБраке,
+	ЗНАЧЕНИЕ(Справочник.УченыеСтепени.ПустаяСсылка) КАК УченаяСтепень,
+	ЗНАЧЕНИЕ(Справочник.УченыеЗвания.ПустаяСсылка) КАК УченоеЗвание,
+	ЛОЖЬ КАК ИмеетНаучныеТруды,
+	ЛОЖЬ КАК ИмеетИзобретения,
+	ЗНАЧЕНИЕ(Справочник.Награды.ПустаяСсылка) КАК ПочетноеЗвание,
+	"" КАК ПолученныеОбразования,
+	"" КАК Переподготовка,
+	"" КАК ПовышениеКвалификации,
+	ЗНАЧЕНИЕ(Справочник.КлассныеЧиныРанги.ПустаяСсылка) КАК КлассныйЧинРанг,
+	ДАТАВРЕМЯ(1, 1, 1) КАК КлассныйЧинРангПериодРегистрации,
+	ЗНАЧЕНИЕ(Справочник.КлассныеЧиныРанги.ПустаяСсылка) КАК КлассныйЧинРангДолжности,
+	"" КАК Награды,
+	"" КАК Документы,
+	"" КАК ЗнанияЯзыков,
+	"" КАК Профессии,
+	"" КАК Специальности,
+	"" КАК ТрудоваяДеятельность,
+	"" КАК СоставСемьи,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ДатаДоговораКонтракта,
+	"" КАК НомерДоговораКонтракта,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ДатаНачала,
+	ЗНАЧЕНИЕ(Справочник.ФизическиеЛица.ПустаяСсылка) КАК ПредставительНанимателя,
+	ЗНАЧЕНИЕ(Справочник.Должности.ПустаяСсылка) КАК ДолжностьПредставителяНанимателя,
+	"" КАК ОснованиеПредставителя,
+	"" КАК ВидАктаГосоргана,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ДатаОкончания,
+	ЛОЖЬ КАК СрочныйДоговор,
+	"" КАК СрокЗаключенияДоговора,
+	"" КАК ОборудованиеРабочегоМеста,
+	"" КАК ИныеУсловияДоговора,
+	0 КАК ОбщийСтажДней,
+	0 КАК ОбщийСтажМесяцев,
+	0 КАК ОбщийСтажЛет,
+	0 КАК ВыслугаЛетНаГосударственнойСлужбеДней,
+	0 КАК ВыслугаЛетНаГосударственнойСлужбеМесяцев,
+	0 КАК ВыслугаЛетНаГосударственнойСлужбеЛет,
+	ИСТИНА КАК ВключаетсяВРеестрГосслужащих
+ПОМЕСТИТЬ Представления_КадровыеДанныеСотрудников
+ИЗ
+	ВТСотрудники КАК ВТСотрудники
+ГДЕ
+	"ТолькоРазрешенные" = ИСТИНА
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Представления_КадровыеДанныеСотрудников.Сотрудник КАК Сотрудник,
+	Представления_КадровыеДанныеСотрудников.ТабельныйНомер КАК ТабельныйНомер,
+	Представления_КадровыеДанныеСотрудников.ВидЗанятости КАК ВидЗанятости,
+	Представления_КадровыеДанныеСотрудников.ФизическоеЛицо КАК ФизическоеЛицо,
+	Представления_КадровыеДанныеСотрудников.ГоловнаяОрганизация КАК ГоловнаяОрганизация,
+	Представления_КадровыеДанныеСотрудников.Организация КАК Организация,
+	Представления_КадровыеДанныеСотрудников.Подразделение КАК Подразделение,
+	Представления_КадровыеДанныеСотрудников.Должность КАК Должность,
+	Представления_КадровыеДанныеСотрудников.ДолжностьПоШтатномуРасписанию КАК ДолжностьПоШтатномуРасписанию,
+	Представления_КадровыеДанныеСотрудников.РазрядКатегория КАК РазрядКатегория,
+	Представления_КадровыеДанныеСотрудников.ТарифнаяСетка КАК ТарифнаяСетка,
+	Представления_КадровыеДанныеСотрудников.ДатаПриема КАК ДатаПриема,
+	ВЫБОР
+		КОГДА Представления_КадровыеДанныеСотрудников.ДатаУвольнения &lt;= &amp;Период
+			ТОГДА Представления_КадровыеДанныеСотрудников.ДатаУвольнения
+		ИНАЧЕ ДАТАВРЕМЯ(1, 1, 1)
+	КОНЕЦ КАК ДатаУвольнения,
+	Представления_КадровыеДанныеСотрудников.Пол КАК Пол,
+	Представления_КадровыеДанныеСотрудников.ДатаРождения КАК ДатаРождения,
+	Представления_КадровыеДанныеСотрудников.ИНН КАК ИНН,
+	Представления_КадровыеДанныеСотрудников.СтраховойНомерПФР КАК СтраховойНомерПФР,
+	Представления_КадровыеДанныеСотрудников.МестоРождения КАК МестоРождения,
+	Представления_КадровыеДанныеСотрудников.Страна КАК Страна,
+	Представления_КадровыеДанныеСотрудников.Фамилия КАК Фамилия,
+	Представления_КадровыеДанныеСотрудников.Имя КАК Имя,
+	Представления_КадровыеДанныеСотрудников.Отчество КАК Отчество,
+	Представления_КадровыеДанныеСотрудников.ФИОПолные КАК ФИОПолные,
+	Представления_КадровыеДанныеСотрудников.СостояниеВБраке КАК СостояниеВБраке,
+	Представления_КадровыеДанныеСотрудников.ТрудовойДоговорНомер КАК ТрудовойДоговорНомер,
+	Представления_КадровыеДанныеСотрудников.ТрудовойДоговорДата КАК ТрудовойДоговорДата,
+	Представления_КадровыеДанныеСотрудников.ПолученныеОбразования КАК ПолученныеОбразования,
+	Представления_КадровыеДанныеСотрудников.Переподготовка,
+	Представления_КадровыеДанныеСотрудников.ПовышениеКвалификации,
+	Представления_КадровыеДанныеСотрудников.Награды КАК Награды,
+	Представления_КадровыеДанныеСотрудников.Документы КАК Документы,
+	Представления_КадровыеДанныеСотрудников.ЗнанияЯзыков КАК ЗнанияЯзыков,
+	Представления_КадровыеДанныеСотрудников.Профессии КАК Профессии,
+	Представления_КадровыеДанныеСотрудников.Специальности КАК Специальности,
+	Представления_КадровыеДанныеСотрудников.ТрудоваяДеятельность КАК ТрудоваяДеятельность,
+	Представления_КадровыеДанныеСотрудников.СоставСемьи КАК СоставСемьи,
+	Представления_КадровыеДанныеСотрудников.ДатаДоговораКонтракта КАК ДатаДоговораКонтракта,
+	Представления_КадровыеДанныеСотрудников.НомерДоговораКонтракта КАК НомерДоговораКонтракта,
+	Представления_КадровыеДанныеСотрудников.ДатаНачала КАК ДатаНачала,
+	Представления_КадровыеДанныеСотрудников.ПредставительНанимателя КАК ПредставительНанимателя,
+	Представления_КадровыеДанныеСотрудников.ДолжностьПредставителяНанимателя КАК ДолжностьПредставителяНанимателя,
+	Представления_КадровыеДанныеСотрудников.ОснованиеПредставителя КАК ОснованиеПредставителя,
+	Представления_КадровыеДанныеСотрудников.ВидАктаГосоргана КАК ВидАктаГосоргана,
+	Представления_КадровыеДанныеСотрудников.ДатаОкончания КАК ДатаОкончания,
+	Представления_КадровыеДанныеСотрудников.СрочныйДоговор КАК СрочныйДоговор,
+	Представления_КадровыеДанныеСотрудников.СрокЗаключенияДоговора КАК СрокЗаключенияДоговора,
+	Представления_КадровыеДанныеСотрудников.ОборудованиеРабочегоМеста КАК ОборудованиеРабочегоМеста,
+	Представления_КадровыеДанныеСотрудников.ИныеУсловияДоговора КАК ИныеУсловияДоговора,
+	Представления_КадровыеДанныеСотрудников.УченаяСтепень КАК УченаяСтепень,
+	Представления_КадровыеДанныеСотрудников.УченоеЗвание КАК УченоеЗвание,
+	Представления_КадровыеДанныеСотрудников.ЛичныйРеестровыйНомер КАК ЛичныйРеестровыйНомер,
+	Представления_КадровыеДанныеСотрудников.ОбщийСтажДней КАК ОбщийСтажДней,
+	Представления_КадровыеДанныеСотрудников.ОбщийСтажМесяцев КАК ОбщийСтажМесяцев,
+	Представления_КадровыеДанныеСотрудников.ОбщийСтажЛет КАК ОбщийСтажЛет,
+	Представления_КадровыеДанныеСотрудников.ВключаетсяВРеестрГосслужащих КАК ВключаетсяВРеестрГосслужащих,
+	Представления_КадровыеДанныеСотрудников.КлассныйЧинРанг,
+	Представления_КадровыеДанныеСотрудников.КлассныйЧинРангПериодРегистрации,
+	Представления_КадровыеДанныеСотрудников.КлассныйЧинРангДолжности,
+	Представления_КадровыеДанныеСотрудников.ВыслугаЛетНаГосударственнойСлужбеДней,
+	Представления_КадровыеДанныеСотрудников.ВыслугаЛетНаГосударственнойСлужбеМесяцев,
+	Представления_КадровыеДанныеСотрудников.ВыслугаЛетНаГосударственнойСлужбеЛет
+{ВЫБРАТЬ
+	Сотрудник.*,
+	ТабельныйНомер,
+	ВидЗанятости.*,
+	ФизическоеЛицо.*,
+	ГоловнаяОрганизация.*,
+	Организация.*,
+	Подразделение.*,
+	Должность.*,
+	ДолжностьПоШтатномуРасписанию.*,
+	РазрядКатегория.*,
+	ТарифнаяСетка.*,
+	ДатаПриема,
+	ДатаУвольнения,
+	Пол.*,
+	ДатаРождения,
+	ИНН,
+	СтраховойНомерПФР,
+	МестоРождения,
+	Страна.*,
+	Фамилия,
+	Имя,
+	Отчество,
+	ФИОПолные,
+	СостояниеВБраке.*,
+	ТрудовойДоговорНомер,
+	ТрудовойДоговорДата,
+	ПолученныеОбразования,
+	Награды,
+	Документы,
+	ЗнанияЯзыков,
+	Профессии,
+	Специальности,
+	ТрудоваяДеятельность,
+	СоставСемьи,
+	ДатаДоговораКонтракта,
+	НомерДоговораКонтракта,
+	ДатаНачала,
+	ПредставительНанимателя.*,
+	ДолжностьПредставителяНанимателя.*,
+	ОснованиеПредставителя,
+	ВидАктаГосоргана,
+	ДатаОкончания,
+	СрочныйДоговор,
+	СрокЗаключенияДоговора,
+	ОборудованиеРабочегоМеста,
+	ИныеУсловияДоговора,
+	УченоеЗвание.*,
+	УченаяСтепень.*,
+	ЛичныйРеестровыйНомер,
+	ОбщийСтажДней,
+	ОбщийСтажМесяцев,
+	ОбщийСтажЛет,
+	ВключаетсяВРеестрГосслужащих}
+ИЗ
+	Представления_КадровыеДанныеСотрудников КАК Представления_КадровыеДанныеСотрудников
+{ГДЕ
+	Представления_КадровыеДанныеСотрудников.Сотрудник.*,
+	Представления_КадровыеДанныеСотрудников.ТабельныйНомер,
+	Представления_КадровыеДанныеСотрудников.ФизическоеЛицо.*,
+	Представления_КадровыеДанныеСотрудников.ГоловнаяОрганизация.*,
+	Представления_КадровыеДанныеСотрудников.ВидЗанятости.* КАК ВидЗанятости,
+	Представления_КадровыеДанныеСотрудников.Подразделение.*,
+	Представления_КадровыеДанныеСотрудников.Должность.*,
+	Представления_КадровыеДанныеСотрудников.ДолжностьПоШтатномуРасписанию.*,
+	Представления_КадровыеДанныеСотрудников.РазрядКатегория.*,
+	Представления_КадровыеДанныеСотрудников.ТарифнаяСетка.*,
+	Представления_КадровыеДанныеСотрудников.ДатаПриема,
+	Представления_КадровыеДанныеСотрудников.ДатаУвольнения,
+	Представления_КадровыеДанныеСотрудников.Пол,
+	Представления_КадровыеДанныеСотрудников.ДатаРождения,
+	Представления_КадровыеДанныеСотрудников.ИНН,
+	Представления_КадровыеДанныеСотрудников.СтраховойНомерПФР,
+	Представления_КадровыеДанныеСотрудников.МестоРождения,
+	Представления_КадровыеДанныеСотрудников.Страна,
+	Представления_КадровыеДанныеСотрудников.Фамилия,
+	Представления_КадровыеДанныеСотрудников.Имя,
+	Представления_КадровыеДанныеСотрудников.Отчество,
+	Представления_КадровыеДанныеСотрудников.ФИОПолные,
+	Представления_КадровыеДанныеСотрудников.Организация.* КАК Организация,
+	Представления_КадровыеДанныеСотрудников.ПочетноеЗвание.*,
+	Представления_КадровыеДанныеСотрудников.ПолученныеОбразования,
+	Представления_КадровыеДанныеСотрудников.Награды,
+	Представления_КадровыеДанныеСотрудников.Документы,
+	Представления_КадровыеДанныеСотрудников.ЗнанияЯзыков,
+	Представления_КадровыеДанныеСотрудников.Профессии,
+	Представления_КадровыеДанныеСотрудников.Специальности,
+	Представления_КадровыеДанныеСотрудников.ТрудоваяДеятельность,
+	Представления_КадровыеДанныеСотрудников.СоставСемьи,
+	Представления_КадровыеДанныеСотрудников.ДатаДоговораКонтракта,
+	Представления_КадровыеДанныеСотрудников.НомерДоговораКонтракта,
+	Представления_КадровыеДанныеСотрудников.ДатаНачала,
+	Представления_КадровыеДанныеСотрудников.ПредставительНанимателя.*,
+	Представления_КадровыеДанныеСотрудников.ДолжностьПредставителяНанимателя.*,
+	Представления_КадровыеДанныеСотрудников.ОснованиеПредставителя,
+	Представления_КадровыеДанныеСотрудников.ВидАктаГосоргана,
+	Представления_КадровыеДанныеСотрудников.ДатаОкончания,
+	Представления_КадровыеДанныеСотрудников.СрочныйДоговор,
+	Представления_КадровыеДанныеСотрудников.СрокЗаключенияДоговора,
+	Представления_КадровыеДанныеСотрудников.ОборудованиеРабочегоМеста,
+	Представления_КадровыеДанныеСотрудников.ИныеУсловияДоговора,
+	Представления_КадровыеДанныеСотрудников.ЛичныйРеестровыйНомер,
+	Представления_КадровыеДанныеСотрудников.ВключаетсяВРеестрГосслужащих}</query>
+	</dataSet>
+	<calculatedField>
+		<dataPath>ЛичныеДанные.ОбщийСтаж</dataPath>
+		<expression>ВЫБОР КОГДА ЕСТЬNULL(ЛичныеДанные.ОбщийСтажЛет, 0) = 0 И ЕСТЬNULL(ЛичныеДанные.ОбщийСтажМесяцев, 0) = 0 ТОГДА "" ИНАЧЕ  СтроковыеФункцииКлиентСервер.ПодставитьПараметрыВСтроку(НСтр("ru = 'лет: %1, месяцев: %2'"), ЛичныеДанные.ОбщийСтажЛет, ЛичныеДанные.ОбщийСтажМесяцев) КОНЕЦ</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Общий стаж</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>СведенияОКонтракте.ВидКонтракта</dataPath>
+		<expression>ВЫБОР КОГДА СведенияОКонтракте.СрочныйДоговор ТОГДА НСтр("ru = 'Срочный'") иначе НСтр("ru = 'Бессрочный'") КОНЕЦ</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Вид контракта</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ДанныеГосслужащего.СтажНаГосслужбе</dataPath>
+		<expression>ВЫБОР КОГДА ЕСТЬNULL(ДанныеГосслужащего.ВыслугаЛетНаГосударственнойСлужбеЛет, 0) = 0 И ЕСТЬNULL(ДанныеГосслужащего.ВыслугаЛетНаГосударственнойСлужбеМесяцев, 0) = 0 ТОГДА "" ИНАЧЕ  СтроковыеФункцииКлиентСервер.ПодставитьПараметрыВСтроку(НСтр("ru = 'лет: %1, месяцев: %2'"), ДанныеГосслужащего.ВыслугаЛетНаГосударственнойСлужбеЛет, ДанныеГосслужащего.ВыслугаЛетНаГосударственнойСлужбеМесяцев) КОНЕЦ</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Данные госслужащего.Стаж на госслужбе</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ДанныеГосслужащего.МесяцевСлужбыВЧине</dataPath>
+		<expression>РазностьДат(ДанныеГосслужащего.КлассныйЧинРангПериодРегистрации, &amp;Период, "МЕСЯЦ")</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Месяцев службы в чине</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>РеестрГосударственныхСлужащих</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Реестр государственных служащих</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">ДанныеГосслужащего.ВключаетсяВРеестрГосслужащих</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					<dcsset:viewMode>Inaccessible</dcsset:viewMode>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Организация</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>a64a9f35-5fbd-424a-93cb-70e1604a4164</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisDay</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>713f7b4b-235b-4c48-a164-0b610fbd11c2</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Main</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Реестр государственных служащих</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Организация</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>СведенияОМестеРаботы.Должность</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Наименование должности</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Сотрудник</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Фамилия, имя, отчество</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ДанныеГосслужащего.ЛичныйРеестровыйНомер</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Личный реестровый номер</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ЛичныеДанные.ДатаРождения</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ЛичныеДанные.МестоРождения</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Место рождения</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ЛичныеДанные.ПолученныеОбразования</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Образование</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ЛичныеДанные.Переподготовка</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ЛичныеДанные.ПовышениеКвалификации</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ЛичныеДанные.УченаяСтепень</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ученая степень</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ЛичныеДанные.УченоеЗвание</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ученое звание</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ЛичныеДанные.ОбщийСтаж</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Стаж(общий)</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ДанныеГосслужащего.СтажНаГосслужбе</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Стаж государственной (муниципальной)службы</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ЛичныеДанные.Награды</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Награды</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Классный чин</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>ДанныеГосслужащего.КлассныйЧинРангДолжности</dcsset:field>
+								<dcsset:lwsTitle>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Чин по занимаемой должности</v8:content>
+									</v8:item>
+								</dcsset:lwsTitle>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>ДанныеГосслужащего.КлассныйЧинРанг</dcsset:field>
+								<dcsset:lwsTitle>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Присвоенный чин</v8:content>
+									</v8:item>
+								</dcsset:lwsTitle>
+							</dcsset:item>
+							<dcsset:placement>Horizontally</dcsset:placement>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Служебный контракт</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>СведенияОКонтракте.ВидКонтракта</dcsset:field>
+								<dcsset:lwsTitle>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Вид контракта</v8:content>
+									</v8:item>
+								</dcsset:lwsTitle>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>СведенияОКонтракте.ДатаДоговораКонтракта</dcsset:field>
+								<dcsset:lwsTitle>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Дата заключения</v8:content>
+									</v8:item>
+								</dcsset:lwsTitle>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>СведенияОКонтракте.ДатаОкончания</dcsset:field>
+								<dcsset:lwsTitle>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Дата окончания</v8:content>
+									</v8:item>
+								</dcsset:lwsTitle>
+							</dcsset:item>
+							<dcsset:placement>Horizontally</dcsset:placement>
+						</dcsset:item>
+					</dcsset:selection>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+	<settingsVariant>
+		<dcsset:name>ПродвижениеГосударственныхСлужащих</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Повышение работников по сроку нахождения в чине</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">ДанныеГосслужащего.ВключаетсяВРеестрГосслужащих</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					<dcsset:viewMode>Inaccessible</dcsset:viewMode>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Организация</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>a64a9f35-5fbd-424a-93cb-70e1604a4164</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">ДанныеГосслужащего.МесяцевСлужбыВЧине</dcsset:left>
+					<dcsset:comparisonType>GreaterOrEqual</dcsset:comparisonType>
+					<dcsset:right xsi:type="dcscor:Field">ДанныеГосслужащего.КлассныйЧинРанг.СрокНахожденияВЧине</dcsset:right>
+					<dcsset:viewMode>Inaccessible</dcsset:viewMode>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisDay</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>713f7b4b-235b-4c48-a164-0b610fbd11c2</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Main</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Повышение работников по сроку нахождения в чине</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Организация</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>СведенияОМестеРаботы.Должность</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Наименование должности</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Сотрудник</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Фамилия, имя, отчество</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ДанныеГосслужащего.СтажНаГосслужбе</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Стаж государственной (муниципальной)службы</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Классный чин</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>ДанныеГосслужащего.КлассныйЧинРанг</dcsset:field>
+								<dcsset:lwsTitle>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Присвоенный чин</v8:content>
+									</v8:item>
+								</dcsset:lwsTitle>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>ДанныеГосслужащего.КлассныйЧинРанг.СрокНахожденияВЧине</dcsset:field>
+								<dcsset:lwsTitle>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Предельный срок нахождения в чине (мес)</v8:content>
+									</v8:item>
+								</dcsset:lwsTitle>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>ДанныеГосслужащего.КлассныйЧинРангПериодРегистрации</dcsset:field>
+								<dcsset:lwsTitle>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Присвоен</v8:content>
+									</v8:item>
+								</dcsset:lwsTitle>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>ДанныеГосслужащего.МесяцевСлужбыВЧине</dcsset:field>
+								<dcsset:lwsTitle>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>В чине (мес.)</v8:content>
+									</v8:item>
+								</dcsset:lwsTitle>
+							</dcsset:item>
+							<dcsset:placement>Horizontally</dcsset:placement>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Служебный контракт</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>СведенияОКонтракте.ВидКонтракта</dcsset:field>
+								<dcsset:lwsTitle>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Вид контракта</v8:content>
+									</v8:item>
+								</dcsset:lwsTitle>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>СведенияОКонтракте.ДатаДоговораКонтракта</dcsset:field>
+								<dcsset:lwsTitle>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Дата заключения</v8:content>
+									</v8:item>
+								</dcsset:lwsTitle>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>СведенияОКонтракте.ДатаОкончания</dcsset:field>
+								<dcsset:lwsTitle>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Дата окончания</v8:content>
+									</v8:item>
+								</dcsset:lwsTitle>
+							</dcsset:item>
+							<dcsset:placement>Horizontally</dcsset:placement>
+						</dcsset:item>
+					</dcsset:selection>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

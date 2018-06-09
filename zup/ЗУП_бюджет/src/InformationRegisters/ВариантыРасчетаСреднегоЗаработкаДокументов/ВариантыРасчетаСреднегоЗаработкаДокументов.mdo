@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72f548bc-715e-4f2a-895b-72bf9d541531">
+  <producedTypes>
+    <selectionType typeId="deda44af-a8ad-4f3a-9a1b-0d9db7991d0b" valueTypeId="e9ca96af-fe38-43d7-b480-4ae5c60e6e2f"/>
+    <listType typeId="c17ce65d-6e2c-495c-bdf7-ffa4c4cdab93" valueTypeId="023da67e-c931-41e1-8874-8948570e75b2"/>
+    <managerType typeId="14477061-8f05-4e5a-9012-411afc93fa10" valueTypeId="afac3d9c-5d26-4133-8797-01806d12db68"/>
+    <recordSetType typeId="a15d3e1d-a002-418c-87ef-79058bde3bbe" valueTypeId="b3bfec3f-6f70-4718-a2f8-f44217c28074"/>
+    <recordKeyType typeId="562e860e-6b91-4763-9c73-f621f2b2a38f" valueTypeId="85a5fd27-8c3d-4063-aac5-2186b961a436"/>
+    <recordType typeId="766fe5ee-66e0-4ff2-b5b1-bfb6e34566d1" valueTypeId="f66e6b2a-a788-42a2-98c9-085c3b313966"/>
+    <recordManagerType typeId="fad0f443-cbe1-4673-a3ea-2bb9f2a63e97" valueTypeId="608228a6-f9e8-4a46-a0b3-20cacb4cf5b2"/>
+  </producedTypes>
+  <name>ВариантыРасчетаСреднегоЗаработкаДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты расчета среднего заработка документов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="56ad8107-398c-4202-b989-ebfcc1f61eff">
+    <name>РасчетДенежногоСодержания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет денежного содержания</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="554f17fa-29ca-4b30-bdeb-f333a3ee2584">
+    <name>ВидДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид документа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ВидыДокументовНачисления</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5d2a78bb-4527-4a1a-8c43-fb1826fab91e">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

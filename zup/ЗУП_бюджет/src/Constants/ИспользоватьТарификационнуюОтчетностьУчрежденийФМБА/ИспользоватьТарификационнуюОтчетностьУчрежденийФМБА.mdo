@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92d07d22-252f-4d3c-84ba-67618b4ecdca">
+  <producedTypes>
+    <managerType typeId="b6bcaa3f-cb6a-4618-a52a-df6e34ff8ff4" valueTypeId="73a43702-8b06-40d7-97c2-cfec91d88e5a"/>
+    <valueManagerType typeId="81997ad2-e4d2-483c-b4ab-865713ed1e70" valueTypeId="d60413a8-613b-410f-af1e-0e16071f64e9"/>
+  </producedTypes>
+  <name>ИспользоватьТарификационнуюОтчетностьУчрежденийФМБА</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать тарификационную отчетность учреждений ФМБА</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

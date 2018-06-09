@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ad3af78-ab49-4739-89a6-8e5512fa27a5">
+  <name>НеИспользоватьРасчетДенежногоДовольствияВоеннослужащих</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не использовать расчет денежного довольствия военнослужащих</value>
+  </synonym>
+  <comment></comment>
+  <location>InformationRegister.НастройкиГосударственнойСлужбы.Resource.НеИспользоватьРасчетДенежногоДовольствияВоеннослужащих</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ЗачислениеВСпискиЧасти.Attribute.ГрафикРаботы</content>
+  <content>Document.КадровыйПереводВоеннослужащего.Attribute.ПеревестиНаДругойГрафик</content>
+  <content>Document.КадровыйПереводВоеннослужащего.Attribute.ГрафикРаботы</content>
+  <content>Document.ЗачислениеВСпискиЧастиСписком.TabularSection.Сотрудники.Attribute.ГрафикРаботы</content>
+  <content>Document.КадровыйПереводВоеннослужащегоСписком.TabularSection.Сотрудники.Attribute.ПеревестиНаДругойГрафик</content>
+  <content>Document.КадровыйПереводВоеннослужащегоСписком.TabularSection.Сотрудники.Attribute.ГрафикРаботы</content>
+</mdclass:FunctionalOption>

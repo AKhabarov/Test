@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="097c56a8-641e-404d-99b8-9f6a3ca21f05">
+  <name>ОбменЗГУБГУ2ЗарегистрироватьИзменениеДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с Бухгалтерия государственного учреждения, редакция 2.0 - регистрация изменений  документов</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>DocumentObject.ОтражениеЗарплатыВБухучетеБюджетныхУчреждений</types>
+    <types>DocumentObject.НачислениеОценочныхОбязательствПоОтпускам</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменЗГУБГУ2События.ЗарегистрироватьИзменениеДокумента</handler>
+</mdclass:EventSubscription>

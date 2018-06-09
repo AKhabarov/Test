@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75daee48-8813-4741-8887-997b3805171c">
+  <producedTypes>
+    <managerType typeId="ee768259-81dd-443d-b036-ec6b2d4a109d" valueTypeId="501c7ab5-08de-482e-b899-9990d5370200"/>
+    <valueManagerType typeId="c155be2e-3f52-460b-bad7-1aaf813f079d" valueTypeId="32385d33-f7f5-4f2c-a167-3761f3796963"/>
+  </producedTypes>
+  <name>НачислятьОкладЗаКлассныйЧинМуниципальнымСлужащим</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начислять оклад за классный чин муниципальным служащим</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="298fd6fa-541e-4a9a-893d-ab5e110e664d">
+  <producedTypes>
+    <selectionType typeId="90f2c8d3-00dc-4f42-9f6a-ac4e83896889" valueTypeId="27a450dd-f61c-4dae-a384-e2f13e7deb33"/>
+    <listType typeId="ec867fc4-2dbc-4016-9dd3-073b0df01210" valueTypeId="d3e2b6d7-9a98-4e69-8d7c-f15bd1caebc5"/>
+    <managerType typeId="7c02e5ad-f9ac-4cf0-a6a4-6c7cb99e56ea" valueTypeId="497d52ad-e4a1-40c5-87d3-2a01af7c09b1"/>
+    <recordSetType typeId="9ba6e018-d203-4865-9369-a62a3a947038" valueTypeId="61281e7f-f6ea-4de1-b669-a30d5d750a87"/>
+    <recordKeyType typeId="c0392a81-8ffe-4e4e-9665-433f12b429ff" valueTypeId="0ec9cddb-ec42-4bc0-94f5-561c91d70f61"/>
+    <recordType typeId="c5162845-ec88-4d3a-9032-17983a707f17" valueTypeId="e7ebfc9a-328b-4e2a-b489-aab825aa72fc"/>
+    <recordManagerType typeId="e89907e0-1eda-4b4e-bcc3-3fa89fe9b55a" valueTypeId="31838fbd-a7cc-4783-9a70-ca346b426fde"/>
+  </producedTypes>
+  <name>СвойстваДолжностейМедицинскихРаботников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойства должностей медицинских работников</value>
+  </synonym>
+  <comment></comment>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a1b7b9e3-ccaa-414a-ade5-027120261f0d">
+    <name>ЯвляетсяМедицинскойДолжностью</name>
+    <synonym>
+      <key>ru</key>
+      <value>Является должностью медицинского работника</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d7b94f62-fc7e-4416-bcd2-82937356b091">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

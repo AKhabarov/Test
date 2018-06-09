@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47e2efbe-0d4a-44e3-a70e-e602fadad61c">
+  <name>ЗаписатьНастройкиИспользованияОбменаЗГУБГУ1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Записать настройки использования обмена с Бухгалтерия государственного учреждения, редакция 1.0</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>ExchangePlanObject.ОбменЗГУБГУ1</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ОбменЗГУБГУ1События.ЗаписатьНастройкиИспользования</handler>
+</mdclass:EventSubscription>

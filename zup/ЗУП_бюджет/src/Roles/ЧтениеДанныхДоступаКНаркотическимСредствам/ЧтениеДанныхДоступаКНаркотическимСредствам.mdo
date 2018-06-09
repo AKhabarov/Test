@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8e34a36-da56-4f0a-b729-1532037bb753">
+  <name>ЧтениеДанныхДоступаКНаркотическимСредствам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение данных доступа к наркотическим средствам</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

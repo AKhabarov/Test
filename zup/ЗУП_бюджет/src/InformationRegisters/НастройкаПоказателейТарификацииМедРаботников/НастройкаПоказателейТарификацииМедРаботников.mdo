@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ccaae632-961f-4d35-a9a4-830ba243c972">
+  <producedTypes>
+    <selectionType typeId="c8eda303-3ad2-4d7b-bd7f-c33574ba1c26" valueTypeId="ce290d4a-3fe7-4415-b609-146b90b0d081"/>
+    <listType typeId="f267d17e-58a5-4082-9d2b-2ec3c9cc46ef" valueTypeId="45f99e2e-2ba6-4071-9337-c23cf7049ae1"/>
+    <managerType typeId="71e09d76-ef9c-47b4-a3db-e7211b907faf" valueTypeId="45fe2e3c-d25b-4479-a248-087300ccca70"/>
+    <recordSetType typeId="41eb66d9-3779-41fc-921a-5ad5c2f2819c" valueTypeId="626ab765-3a2e-4225-baef-f49103878ca5"/>
+    <recordKeyType typeId="60e56cad-445a-4b66-928f-0fb3324d070f" valueTypeId="6b304b19-10d6-4aa8-8a5d-751c1b8ed657"/>
+    <recordType typeId="f328c41c-7067-45a5-be1f-901992b34ea0" valueTypeId="1e475983-5517-4571-aea0-b02d211d5a3b"/>
+    <recordManagerType typeId="903194d6-41cd-485a-8dd9-ed991815342c" valueTypeId="ee0433f1-d5f5-4353-a8ca-e1757595b12f"/>
+  </producedTypes>
+  <name>НастройкаПоказателейТарификацииМедРаботников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка показателей тарификации медицинских работников</value>
+  </synonym>
+  <comment></comment>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ceed42cc-7605-432e-af4d-290cbcdbd274">
+    <name>ПоказательТарификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель тарификации</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ПоказателиТарификацииМедРаботников</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2eba7402-efa3-45f7-a970-28d70e3ddc10">
+    <name>Показатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ПоказателиРасчетаЗарплаты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="591377f3-de3b-48ad-981f-344110a57b20">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="e8da0816-8302-45ca-b731-b73030fd7e94">
+    <name>НастройкаПоказателейТарификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка показателей тарификации</value>
+    </synonym>
+    <comment></comment>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:InformationRegister>

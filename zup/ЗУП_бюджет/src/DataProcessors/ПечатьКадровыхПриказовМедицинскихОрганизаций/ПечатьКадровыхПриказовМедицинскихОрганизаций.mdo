@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b37c5c4-af48-4123-b6d1-9861cdd0dd63">
+  <producedTypes>
+    <objectType typeId="1a8d6cf0-f0e8-43a1-94e5-a89863b8f45d" valueTypeId="2295da37-cb9d-4db8-91e8-5f753823b4c0"/>
+    <managerType typeId="31153b16-a1e7-4f11-9ece-8701dfc27866" valueTypeId="c315d1f0-ee8b-4b7e-ae77-affa974fb5b3"/>
+  </producedTypes>
+  <name>ПечатьКадровыхПриказовМедицинскихОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать кадровых приказов медицинских организаций</value>
+  </synonym>
+  <comment></comment>
+  <templates uuid="5427c5a2-add6-429b-99f3-91481f899222">
+    <name>ПФ_MXL_АттестационныйЛистМедицинскогоРаботника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аттестационный лист медицинского работника</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="2e7129db-8b04-4148-8687-45487e2dc078">
+    <name>ПФ_MXL_ОтчетОПрофессиональнойДеятельности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет о профессиональной деятельности (титульный лист)</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="186e1cfe-b455-421c-8906-87e461c1ba70">
+    <name>ПФ_MXL_ЗаявлениеОПодтвержденииКвалификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявление о подтверждении квалификации</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:DataProcessor>

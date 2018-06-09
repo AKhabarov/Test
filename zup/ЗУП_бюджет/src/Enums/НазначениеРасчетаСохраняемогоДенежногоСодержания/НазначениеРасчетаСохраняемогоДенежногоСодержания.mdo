@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d1f32b6-a9c0-4325-8e1e-16077aa1d0e2">
+  <producedTypes>
+    <refType typeId="d59f907b-3999-494f-9bfb-5399f14097b9" valueTypeId="510542e3-67a3-4536-a941-586116f28f40"/>
+    <listType typeId="cf5a8903-9e5d-4f59-8f9e-8136575250b4" valueTypeId="3d8a2a71-99ca-473d-81a9-a951cd2695a8"/>
+    <managerType typeId="1f664111-9e43-498d-a122-98abff238564" valueTypeId="1f077825-345d-4575-b764-be01f4159c02"/>
+  </producedTypes>
+  <name>НазначениеРасчетаСохраняемогоДенежногоСодержания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Назначение расчета сохраняемого денежного содержания</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="196ed2cd-66c8-470c-981b-2afe04cd20a1">
+    <name>ЕжегодныйОтпуск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ежегодный отпуск</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="dda3ac25-3763-4d6c-8f23-109fc753d109">
+    <name>ВыходноеПособие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выходное пособие</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="463f2a74-8b99-4b0a-8b06-cd136c3aaf16">
+    <name>СохраняемоеДенежноеСодержание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохраняемое денежное содержание</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

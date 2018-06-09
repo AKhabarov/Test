@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8239996-40b5-4ed9-85d7-511888ffe53f">
+  <name>ИспользоватьГосударственнуюМуниципальнуюСлужбуПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать государственную муниципальную службу при записи</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>ConstantValueManager.ИспользоватьГосударственнуюСлужбу</types>
+    <types>ConstantValueManager.ИспользоватьВоеннуюСлужбу</types>
+    <types>ConstantValueManager.ИспользоватьМуниципальнуюСлужбу</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ГосударственнаяСлужба.ИспользоватьГосударственнуюМуниципальнуюСлужбуПриЗаписи</handler>
+</mdclass:EventSubscription>

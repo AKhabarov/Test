@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48126aca-fd3e-4326-a76a-71f130eb519e">
+  <producedTypes>
+    <objectType typeId="9b6c8548-e736-4a15-9c1e-f5ec15e3a8bb" valueTypeId="1aa696fa-8911-4661-a548-28d2110e16fc"/>
+    <managerType typeId="338e386b-7690-40fe-bbf1-fea6ab20354c" valueTypeId="6b7b6fb4-dc03-4ce7-97b9-5ceb1e28b61f"/>
+  </producedTypes>
+  <name>Форма14С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет для заполнения формы 14-С (Отчет о расходах и численности)</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.Форма14С.Form.ФормаОтчета</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="2e115451-797d-455a-8e92-459c0da9d806">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="aa8f8c35-9cbf-4b67-94eb-1ac0f78c569b">
+    <name>Форма14С_по_259н</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма14С в соответствии с Приказом Минфина № 259н от 28.12.2017 г.</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Report>

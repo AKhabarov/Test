@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4222b855-57b0-4116-9bf3-a79c2a1308f8">
+  <producedTypes>
+    <selectionType typeId="3e0cc24e-4020-40d3-a039-42152be44381" valueTypeId="8463fbe7-b3c0-4ba2-b849-ec722023af1c"/>
+    <listType typeId="960d9869-2219-4b04-b69a-0b35cf23d16d" valueTypeId="67b61a5f-a64f-452f-a46f-9acec53d9441"/>
+    <managerType typeId="a8230e24-7ced-43dc-93b3-dc2b80503c83" valueTypeId="bcd50649-1678-4516-8e7a-99874264b613"/>
+    <recordSetType typeId="1c193192-b84e-4763-a9b6-28f68eb3095d" valueTypeId="10712e7f-22ef-4bb7-af72-e9d2042485d1"/>
+    <recordKeyType typeId="1efa3aae-e60c-4f5e-b948-a8b87343dc36" valueTypeId="4c23e630-3cbb-401e-9ae7-8d5d06659762"/>
+    <recordType typeId="e86a9845-74a4-42f7-a5be-bd031d48313c" valueTypeId="08a7785d-e4c0-448a-bf29-3f3bb217a9fc"/>
+    <recordManagerType typeId="9b4f9c9d-b432-4cba-9ebe-e89a42b777ad" valueTypeId="fb8fc7e6-cd28-4f6b-b7e6-95a633275978"/>
+  </producedTypes>
+  <name>ОкладыПоВоинскимСпециальнымЗваниям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оклады по воинским специальным званиям</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d41d7fb9-9a9d-4358-9fe5-5efd43c89471">
+    <name>Размер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="244ee11a-e198-4c1e-9e79-955093599c07">
+    <name>ВоинскоеСпециальноеЗвание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Воинское специальное звание</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВоинскиеСпециальныеЗвания</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="d1600123-d7cc-4a31-9b08-4e1691b3b97f">
+    <name>ИсторияИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>История изменения</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

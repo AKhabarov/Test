@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ccde889-9a2e-4830-8024-861099179f13">
+  <name>ОбменЗГУБГУ1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен ЗГУБГУ1</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ОбменЗГУБГУ1</content>
+  <content>ExchangePlan.ОбменЗГУБГУ1</content>
+  <content>EventSubscription.ЗаписатьНастройкиИспользованияОбменаЗГУБГУ1</content>
+  <content>EventSubscription.ОбменЗГУБГУ1ЗарегистрироватьИзменение</content>
+  <content>EventSubscription.ОбменЗГУБГУ1ЗарегистрироватьИзменениеДокумента</content>
+  <content>EventSubscription.ОбменЗГУБГУ1ЗарегистрироватьИзменениеНабораЗаписей</content>
+  <content>EventSubscription.ОбменЗГУБГУ1ЗарегистрироватьУдаление</content>
+  <content>Constant.ИспользоватьОбменЗГУБГУ1ПоВсемОрганизациям</content>
+  <content>InformationRegister.ИспользованиеОбменаЗГУБГУ1ПоОрганизациям</content>
+  <content>CommonModule.ОбменЗГУБГУ1События</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПриложения</parentSubsystem>
+</mdclass:Subsystem>

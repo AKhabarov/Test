@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47f9b2a3-3798-4a95-905c-25b50bbef494">
+  <producedTypes>
+    <managerType typeId="302d5b92-15c6-4469-afc0-d34fe6883ec8" valueTypeId="7bc208a2-5e45-4f04-b06e-c52477471975"/>
+    <valueManagerType typeId="df15d766-1da4-47c0-82ee-0f5f3abd7865" valueTypeId="d6ea9121-54a9-4769-83d9-e9c536092305"/>
+  </producedTypes>
+  <name>РаботаВОбразовательномУчреждении</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа в образовательном учреждении</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

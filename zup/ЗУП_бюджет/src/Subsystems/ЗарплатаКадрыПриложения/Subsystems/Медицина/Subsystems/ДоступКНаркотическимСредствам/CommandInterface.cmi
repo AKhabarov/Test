@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document.ЗапросВФСКН.StandardCommand.OpenList</commands>
+      <commands>Document.ОтветФСКН.StandardCommand.OpenList</commands>
+      <commands>Document.ДопускКНаркотическимВеществам.StandardCommand.OpenList</commands>
+      <commands>Catalog.ОрганыФСКН.StandardCommand.OpenList</commands>
+      <commands>Catalog.СправкиФизическихЛиц.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВидыДопусков.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВидыСправок.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ДопускиСотрудников.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.СостоянияЗапросовВФСКН.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

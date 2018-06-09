@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d23a331a-aa84-4c95-8227-5f1225d5f2cb">
+  <producedTypes>
+    <managerType typeId="348ef9da-6470-45d5-813f-8c6dffd86dae" valueTypeId="6980cf07-c19a-4435-ae02-5cf6629eaf15"/>
+    <valueManagerType typeId="74791be3-7855-40d0-a037-1dec785cc19b" valueTypeId="59d16006-2ff3-442f-a0df-5c0f80b02256"/>
+  </producedTypes>
+  <name>ИспользоватьОбменЗГУБГУ2ПоВсемОрганизациям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать обмен ЗГУ 3.0 - БГУ 2.0 по всем организациям</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27d306be-36e9-4abb-9e24-faddd1195b5e">
+  <name>ДоступКНаркотическимСредствам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступ к наркотическим средствам</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.ОрганыФСКН</content>
+  <content>Role.ДобавлениеИзменениеДоступаКНаркотическимСредствам</content>
+  <content>Role.ЧтениеДанныхДоступаКНаркотическимСредствам</content>
+  <content>Document.ЗапросВФСКН</content>
+  <content>Document.ДопускКНаркотическимВеществам</content>
+  <content>Report.СостояниеПроверокВФСКН</content>
+  <content>InformationRegister.СостоянияЗапросовВФСКН</content>
+  <content>InformationRegister.ДопускиСотрудников</content>
+  <content>Enum.СтатусыДопусков</content>
+  <content>Report.ДопускиСотрудников</content>
+  <content>Catalog.ВидыДопусков</content>
+  <content>Document.ОтветФСКН</content>
+  <content>CommonModule.ДоступКНаркотическимСредствам</content>
+  <content>DocumentJournal.ДокументыДоступаКНаркотическимСредствам</content>
+  <content>Constant.ИспользоватьДоступКНаркотическимСредствам</content>
+  <content>FunctionalOption.ИспользоватьДоступКНаркотическимСредствам</content>
+  <content>Catalog.ДопускКНаркотическимВеществамПрисоединенныеФайлы</content>
+  <content>Catalog.ЗапросВФСКНПрисоединенныеФайлы</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПриложения.Subsystem.Медицина</parentSubsystem>
+</mdclass:Subsystem>

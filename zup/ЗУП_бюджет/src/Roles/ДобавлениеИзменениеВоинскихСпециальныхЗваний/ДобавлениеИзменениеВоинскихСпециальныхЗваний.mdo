@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92d9f6d4-aef5-440a-98f8-8b58e98661de">
+  <name>ДобавлениеИзменениеВоинскихСпециальныхЗваний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение воинских, специальных званий</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

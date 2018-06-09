@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d433a99-34a6-49de-8459-5d4eb6e0cb59">
+  <name>ИспользоватьДоступКНаркотическимСредствам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать доступ к наркотическим средствам</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.ИспользоватьДоступКНаркотическимСредствам</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ВидыДопусков</content>
+  <content>Catalog.ОрганыФСКН</content>
+  <content>Document.ДопускКНаркотическимВеществам</content>
+  <content>Document.ЗапросВФСКН</content>
+  <content>Document.ОтветФСКН</content>
+  <content>DocumentJournal.ДокументыДоступаКНаркотическимСредствам</content>
+  <content>Enum.СтатусыДопусков</content>
+  <content>Report.ДопускиСотрудников</content>
+  <content>Report.СостояниеПроверокВФСКН</content>
+  <content>InformationRegister.ДопускиСотрудников</content>
+  <content>InformationRegister.СостоянияЗапросовВФСКН</content>
+  <content>Catalog.ДопускКНаркотическимВеществамПрисоединенныеФайлы</content>
+  <content>Catalog.ЗапросВФСКНПрисоединенныеФайлы</content>
+</mdclass:FunctionalOption>

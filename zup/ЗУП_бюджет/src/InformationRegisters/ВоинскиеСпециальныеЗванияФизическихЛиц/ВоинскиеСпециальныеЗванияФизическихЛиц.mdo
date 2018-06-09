@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac7ef9bc-c753-4a15-8e57-06e1909049f1">
+  <producedTypes>
+    <selectionType typeId="54666379-2b29-49a5-a351-afd65c2bd8be" valueTypeId="cd52111b-14a9-497f-b907-5084dc65e093"/>
+    <listType typeId="5cf9418f-bff0-45b3-b113-42669cb912e0" valueTypeId="6a3dcb39-3742-4965-ad44-ecfced88586d"/>
+    <managerType typeId="c1638805-fb15-4f16-8036-ac78694ed97e" valueTypeId="574a9dc9-5e38-4f0c-92c3-7441073d4064"/>
+    <recordSetType typeId="dad0d952-ce01-4fa8-a0ef-a208e9823cdc" valueTypeId="38d11920-7fef-4b77-8f1c-7bdc32224e9a"/>
+    <recordKeyType typeId="9a917edd-1a6b-4dbe-800e-db4291caecef" valueTypeId="f5f931ee-0bab-4616-b86d-836b75d18c05"/>
+    <recordType typeId="21603afe-d695-4e10-90d1-fa4c98cbfd45" valueTypeId="8759f8e0-696c-4ef3-98c3-fecebf01b41b"/>
+    <recordManagerType typeId="4090ebc8-8bd3-4836-b7a5-2df538422fde" valueTypeId="4adfd86c-e87d-408f-acb6-4183f79c19a6"/>
+  </producedTypes>
+  <name>ВоинскиеСпециальныеЗванияФизическихЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Воинские, специальные звания физических лиц</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ВоинскиеСпециальныеЗванияФизическихЛиц.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="98c3cdd4-e004-48c0-914b-edf44a496285">
+    <name>ВоинскоеСпециальноеЗвание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Воинское, специальное звание</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВоинскиеСпециальныеЗвания</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f78e2940-05ea-4b22-9f93-1dbd93aa3597">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e72df121-8130-4c68-a764-50ecc9efd68e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="724538f1-7ac7-43e8-9efd-1970f9f0d178">
+    <name>ИсторияИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>История изменения</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

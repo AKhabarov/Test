@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10a859a9-f62d-4f90-8878-203f6fbec0d6">
+  <producedTypes>
+    <refType typeId="d7406885-12ba-42af-b911-93b2306e1e23" valueTypeId="ed67092a-1e5f-440e-bc3d-cd134dce3f63"/>
+    <listType typeId="b7c245fb-9ee5-498e-b6a7-874f137acfa3" valueTypeId="d97604d0-116d-4c69-ad59-075ef5d8a10f"/>
+    <managerType typeId="0322952a-c650-4bd5-8384-2400fa0bb99a" valueTypeId="b01bfb69-b749-4d0d-905e-668023c7aa4c"/>
+  </producedTypes>
+  <name>ВидыКадровыхОперацийВоеннослужащих</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды кадровых операций военнослужащих</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8d768b69-3ae7-4ee7-9c6e-dcf13edf5d33">
+    <name>КадровыйПеревод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кадровый перевод</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f142e5be-3b0f-40cd-b7e3-d151d242b9b7">
+    <name>ВступлениеВДолжность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вступление в должность</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="929bfe8e-d9f7-44cc-b209-c2e41b36fe2c">
+    <name>ОсвобождениеОтДолжности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Освобождение от должности</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="68a6548c-78d9-48bb-adbc-de39538526f4">
+    <name>ПереводСПризываНаКонтракт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перевод с призыва на контракт</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b04750a2-c3cd-48f6-8ad9-a3f12a71bd9c">
+    <name>ПереводСтажераНаКонтракт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перевод стажера на контракт</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

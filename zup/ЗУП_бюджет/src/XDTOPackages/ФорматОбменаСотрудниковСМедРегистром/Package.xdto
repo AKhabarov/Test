@@ -1,0 +1,474 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://service.rosminzdrav.ru/MedStaff/ms">
+	<property name="ArrayOfEmployee">
+		<typeDef xsi:type="ObjectType">
+			<property name="Employee" upperBound="-1" nillable="false">
+				<typeDef xsi:type="ObjectType">
+					<property name="AddressList" nillable="false">
+						<typeDef xsi:type="ObjectType">
+							<property name="Address" upperBound="-1" nillable="false">
+								<typeDef xsi:type="ObjectType">
+									<property name="Apartment" type="xs:string" lowerBound="0" nillable="true"/>
+									<property name="Building" type="xs:string" lowerBound="0" nillable="true"/>
+									<property name="House" type="xs:string" lowerBound="0" nillable="true"/>
+									<property name="Housing" type="xs:string" lowerBound="0" nillable="true"/>
+									<property name="Location" nillable="false">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="PostIndex" type="xs:string" lowerBound="0" nillable="true"/>
+									<property name="Registration" nillable="false">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="RegistrationDate" type="xs:dateTime" lowerBound="0" nillable="true"/>
+									<property name="RegistrationDateEnd" type="xs:dateTime" lowerBound="0" nillable="true"/>
+									<property name="Street" type="xs:string" lowerBound="0" nillable="true"/>
+								</typeDef>
+							</property>
+						</typeDef>
+					</property>
+					<property name="AwardList" lowerBound="0" nillable="true">
+						<typeDef xsi:type="ObjectType">
+							<property name="Award" lowerBound="0" upperBound="-1" nillable="false">
+								<typeDef xsi:type="ObjectType">
+									<property name="AwardNomination" nillable="false">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="Issued" type="xs:dateTime" nillable="false"/>
+									<property name="Name" type="xs:string" nillable="false"/>
+									<property name="Number" type="xs:string" nillable="false"/>
+								</typeDef>
+							</property>
+						</typeDef>
+					</property>
+					<property name="CardRecordList" nillable="false">
+						<typeDef xsi:type="ObjectType">
+							<property name="CardRecord" upperBound="-1" nillable="false">
+								<typeDef xsi:type="ObjectType">
+									<property name="AdditionalLaborAgreement" lowerBound="0" nillable="true">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="Care" nillable="false">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="Conditions" nillable="false">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="DateBegin" type="xs:dateTime" nillable="false"/>
+									<property name="DateEnd" type="xs:dateTime" lowerBound="0" nillable="true"/>
+									<property name="Military" nillable="false">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="OrderIn" type="xs:string" nillable="false"/>
+									<property name="OrderOut" type="xs:string" lowerBound="0" nillable="true"/>
+									<property name="Organization" nillable="false">
+										<typeDef xsi:type="ObjectType">
+											<property name="Name" type="xs:string" nillable="false"/>
+											<property name="OID" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="Population" type="xs:decimal" lowerBound="0" nillable="true"/>
+									<property name="PositionType" nillable="false">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="Post" nillable="false">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="PostType" nillable="false">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="Regime" nillable="false">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="SubdivisionName" type="xs:string" lowerBound="0" nillable="true"/>
+									<property name="SubdivisionType" lowerBound="0" nillable="true">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="TypeIn" nillable="false">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="TypeInAdd" lowerBound="0" nillable="true">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="TypeInCountry" lowerBound="0" nillable="true">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="TypeInGoIn" lowerBound="0" nillable="true">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="TypeInStudTarget" lowerBound="0" nillable="true">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="TypeInStudType" lowerBound="0" nillable="true">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="TypeInTerr" lowerBound="0" nillable="true">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="TypeOut" lowerBound="0" nillable="true">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="TypeOutCountry" lowerBound="0" nillable="true">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="TypeOutDel" lowerBound="0" nillable="true">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="TypeOutGoIn" lowerBound="0" nillable="true">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="TypeOutTerr" lowerBound="0" nillable="true">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="Wage" type="xs:decimal" nillable="false"/>
+								</typeDef>
+							</property>
+						</typeDef>
+					</property>
+					<property name="CertificateEducationList" lowerBound="0" nillable="false">
+						<typeDef xsi:type="ObjectType">
+							<property name="CertificateEducation" lowerBound="0" upperBound="-1" nillable="true">
+								<typeDef xsi:type="ObjectType">
+									<property name="CertificateNumber" type="xs:string" nillable="false"/>
+									<property name="CertificateSerie" type="xs:string" lowerBound="0" nillable="true"/>
+									<property name="Institution" nillable="false">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="IssueDate" type="xs:dateTime" nillable="false"/>
+									<property name="Speciality" nillable="false">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+								</typeDef>
+							</property>
+						</typeDef>
+					</property>
+					<property name="DiplomaEducationList" lowerBound="0" nillable="false">
+						<typeDef xsi:type="ObjectType">
+							<property name="DiplomaEducation" lowerBound="0" upperBound="-1" nillable="true">
+								<typeDef xsi:type="ObjectType">
+									<property name="Aim" type="xs:string" lowerBound="0" nillable="false"/>
+									<property name="DiplomaNumber" type="xs:string" nillable="false"/>
+									<property name="DiplomaSerie" type="xs:string" nillable="false"/>
+									<property name="Institution" nillable="false">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="Speciality" nillable="false">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="TerritoryRf" lowerBound="0" nillable="true">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="Type" nillable="false">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="YearGraduation" type="xs:decimal" nillable="false"/>
+								</typeDef>
+							</property>
+						</typeDef>
+					</property>
+					<property name="Document" nillable="false">
+						<typeDef xsi:type="ObjectType">
+							<property name="INN" type="xs:string" lowerBound="0" nillable="true"/>
+							<property name="IssueDate" type="xs:dateTime" nillable="false"/>
+							<property name="Issued" type="xs:string" nillable="false"/>
+							<property name="Number" type="xs:string" nillable="false"/>
+							<property name="SNILS" type="xs:string" lowerBound="0" nillable="true"/>
+							<property name="Serie" type="xs:string" nillable="false"/>
+							<property name="TabelNumber" type="xs:string" nillable="false"/>
+							<property name="Type" nillable="false">
+								<typeDef xsi:type="ObjectType">
+									<property name="ID" type="xs:decimal" nillable="false"/>
+									<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+								</typeDef>
+							</property>
+						</typeDef>
+					</property>
+					<property name="EmployeeID" type="xs:string" lowerBound="0" nillable="true"/>
+					<property name="Extended" nillable="false">
+						<typeDef xsi:type="ObjectType">
+							<property name="CitezenshipState" lowerBound="0" nillable="true">
+								<typeDef xsi:type="ObjectType">
+									<property name="ID" type="xs:decimal" nillable="false"/>
+									<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+								</typeDef>
+							</property>
+							<property name="HasAuto" type="xs:string" nillable="false"/>
+							<property name="HasChildren" type="xs:string" nillable="false"/>
+							<property name="MarriageState" lowerBound="0" nillable="true">
+								<typeDef xsi:type="ObjectType">
+									<property name="ID" type="xs:decimal" nillable="false"/>
+									<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+								</typeDef>
+							</property>
+							<property name="Phone" type="xs:string" lowerBound="0" nillable="true"/>
+						</typeDef>
+					</property>
+					<property name="General" nillable="false">
+						<typeDef xsi:type="ObjectType">
+							<property name="Birthdate" type="xs:dateTime" nillable="false"/>
+							<property name="Deathdate" type="xs:dateTime" lowerBound="0" nillable="true"/>
+							<property name="Name" type="xs:string" nillable="false"/>
+							<property name="Patroname" type="xs:string" lowerBound="0" nillable="true"/>
+							<property name="Sex" type="xs:string" nillable="false"/>
+							<property name="Surname" type="xs:string" nillable="false"/>
+						</typeDef>
+					</property>
+					<property name="LastChange" type="xs:dateTime" lowerBound="0" nillable="true"/>
+					<property name="Organization" nillable="false">
+						<typeDef xsi:type="ObjectType">
+							<property name="Name" type="xs:string" nillable="false"/>
+							<property name="OID" type="xs:string" lowerBound="0" nillable="true"/>
+						</typeDef>
+					</property>
+					<property name="PostGraduateEducationList" lowerBound="0" nillable="false">
+						<typeDef xsi:type="ObjectType">
+							<property name="PostGraduateEducation" lowerBound="0" upperBound="-1" nillable="true">
+								<typeDef xsi:type="ObjectType">
+									<property name="Aim" type="xs:string" lowerBound="0" nillable="false"/>
+									<property name="DateBegin" type="xs:dateTime" lowerBound="0" nillable="true"/>
+									<property name="DateDocum" type="xs:dateTime" nillable="false"/>
+									<property name="DateEnd" type="xs:dateTime" lowerBound="0" nillable="true"/>
+									<property name="Degree" lowerBound="0" nillable="true">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="DiplomaNumber" type="xs:string" nillable="false"/>
+									<property name="DiplomaSerie" type="xs:string" lowerBound="0" nillable="true"/>
+									<property name="Institution" nillable="false">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="Speciality" nillable="false">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="TerritoryRf" lowerBound="0" nillable="true">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="Type" lowerBound="0" nillable="true">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+								</typeDef>
+							</property>
+						</typeDef>
+					</property>
+					<property name="QualificationList" lowerBound="0" nillable="false">
+						<typeDef xsi:type="ObjectType">
+							<property name="Qualification" lowerBound="0" upperBound="-1" nillable="true">
+								<typeDef xsi:type="ObjectType">
+									<property name="Category" nillable="false">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="DateGet" type="xs:dateTime" lowerBound="0" nillable="false"/>
+									<property name="Speciality" lowerBound="0" nillable="true">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="Year" type="xs:decimal" lowerBound="0" nillable="true"/>
+								</typeDef>
+							</property>
+						</typeDef>
+					</property>
+					<property name="RetrainmentList" lowerBound="0" nillable="false">
+						<typeDef xsi:type="ObjectType">
+							<property name="Retrainment" lowerBound="0" upperBound="-1" nillable="true">
+								<typeDef xsi:type="ObjectType">
+									<property name="DiplomaNumber" type="xs:string" lowerBound="0" nillable="true"/>
+									<property name="DiplomaSerie" type="xs:string" lowerBound="0" nillable="true"/>
+									<property name="Hours" type="xs:decimal" nillable="false"/>
+									<property name="Institution" nillable="false">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="Speciality" nillable="false">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="YearPassing" type="xs:decimal" nillable="false"/>
+								</typeDef>
+							</property>
+						</typeDef>
+					</property>
+					<property name="SkillImprovementList" lowerBound="0" nillable="false">
+						<typeDef xsi:type="ObjectType">
+							<property name="SkillImprovement" lowerBound="0" upperBound="-1" nillable="true">
+								<typeDef xsi:type="ObjectType">
+									<property name="Cycle" type="xs:string" nillable="false"/>
+									<property name="DiplomaNumber" type="xs:string" nillable="false"/>
+									<property name="DiplomaSerie" type="xs:string" lowerBound="0" nillable="true"/>
+									<property name="Hours" type="xs:decimal" nillable="false"/>
+									<property name="Institution" nillable="false">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="IssueDate" type="xs:dateTime" nillable="false"/>
+									<property name="Speciality" nillable="false">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="YearPassing" type="xs:decimal" nillable="false"/>
+								</typeDef>
+							</property>
+						</typeDef>
+					</property>
+					<property name="SkipPaymentList" lowerBound="0" nillable="true">
+						<typeDef xsi:type="ObjectType">
+							<property name="SkipPayment" lowerBound="0" upperBound="-1" nillable="false">
+								<typeDef xsi:type="ObjectType">
+									<property name="DateBegin" type="xs:dateTime" nillable="false"/>
+									<property name="DateEnd" type="xs:dateTime" nillable="false"/>
+									<property name="Reason" nillable="false">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+								</typeDef>
+							</property>
+						</typeDef>
+					</property>
+					<property name="TimeFactList" lowerBound="0" nillable="true">
+						<typeDef xsi:type="ObjectType">
+							<property name="TimeFact" lowerBound="0" upperBound="-1" nillable="false">
+								<typeDef xsi:type="ObjectType">
+									<property name="DateBegin" type="xs:dateTime" nillable="false"/>
+									<property name="DateEnd" type="xs:dateTime" nillable="false"/>
+									<property name="Hours" type="xs:decimal" nillable="false"/>
+								</typeDef>
+							</property>
+						</typeDef>
+					</property>
+					<property name="VocationList" lowerBound="0" nillable="true">
+						<typeDef xsi:type="ObjectType">
+							<property name="Vocation" lowerBound="0" upperBound="-1" nillable="false">
+								<typeDef xsi:type="ObjectType">
+									<property name="AbsenceReason" nillable="false">
+										<typeDef xsi:type="ObjectType">
+											<property name="ID" type="xs:decimal" nillable="false"/>
+											<property name="Name" type="xs:string" lowerBound="0" nillable="true"/>
+										</typeDef>
+									</property>
+									<property name="DateBegin" type="xs:dateTime" nillable="false"/>
+									<property name="DateEnd" type="xs:dateTime" nillable="false"/>
+								</typeDef>
+							</property>
+						</typeDef>
+					</property>
+				</typeDef>
+			</property>
+		</typeDef>
+	</property>
+</package>

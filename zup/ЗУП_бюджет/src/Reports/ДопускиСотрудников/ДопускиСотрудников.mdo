@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53aa37ac-c3db-479a-b5e4-3d664a398438">
+  <producedTypes>
+    <objectType typeId="f1e87210-5d61-4ac0-809a-71672582fac9" valueTypeId="55aa942d-0a0b-4471-96d2-18784c95b953"/>
+    <managerType typeId="b30e9852-4c8c-470f-9a36-23d225a10b80" valueTypeId="011aba23-0d8f-4a1d-8d3f-e93898e83a8a"/>
+  </producedTypes>
+  <name>ДопускиСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Допуски сотрудников</value>
+  </synonym>
+  <comment></comment>
+  <mainDataCompositionSchema>Report.ДопускиСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="2854f771-54ad-4751-ad14-48e8d0ac92f2">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

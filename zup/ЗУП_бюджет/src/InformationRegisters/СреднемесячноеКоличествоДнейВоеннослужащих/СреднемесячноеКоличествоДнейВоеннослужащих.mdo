@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39d2c001-4cc8-44a3-aa5d-01b561658964">
+  <producedTypes>
+    <selectionType typeId="ff0a0fb9-7fbc-4f60-a2b3-6cf8ca85bb3c" valueTypeId="961a25c3-7ff1-4c23-bff9-e744ca1b89f2"/>
+    <listType typeId="39b2f55d-aff1-4400-94c2-22a82677c52b" valueTypeId="0e9f4818-1823-4341-bb56-378cb12f3401"/>
+    <managerType typeId="fa7be950-74cf-48b0-ad9f-8a10530f5210" valueTypeId="8346fedd-419a-417c-b64d-dd1d2187e700"/>
+    <recordSetType typeId="dbb8fedc-1c27-4e5a-844e-22ffcdf9b76d" valueTypeId="71b00f95-735b-47bd-b942-faf79a433889"/>
+    <recordKeyType typeId="bb6efa16-1162-4080-8aed-0484936e241d" valueTypeId="767cd36e-22e1-4cca-b58d-3bff149229bc"/>
+    <recordType typeId="fc3f8341-07ce-40e3-81b6-8741360fec4a" valueTypeId="ad6b17d6-b6a3-49b7-bb01-db63effa8340"/>
+    <recordManagerType typeId="77c2571d-9e7d-4036-a477-e06da654331b" valueTypeId="5f6ce1b7-74e7-4b52-b806-8afdee02aa27"/>
+  </producedTypes>
+  <name>СреднемесячноеКоличествоДнейВоеннослужащих</name>
+  <synonym>
+    <key>ru</key>
+    <value>Среднемесячное количество дней военнослужащих</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ded19667-2972-4486-8a4a-d6b141cd72d6">
+    <name>КоличествоДней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество дней</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <scale>1</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

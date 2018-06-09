@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="713077e7-5100-490a-9fdf-d8799328be23">
+  <producedTypes>
+    <objectType typeId="1514334d-4b99-4260-a74c-8021ad76a47f" valueTypeId="7c97c561-d49e-4c0b-b7be-7dc23ea3b508"/>
+    <refType typeId="9fbacaa0-127b-4982-b22e-f973c79676c7" valueTypeId="ac216612-bea9-4e41-841f-005a2930805c"/>
+    <selectionType typeId="b2bad087-b5b1-4d20-9e90-24cc7623cfe5" valueTypeId="bc6a679a-8675-4ba1-b391-f9c337fb1f44"/>
+    <listType typeId="7d836d2a-1e67-4419-80d2-12a35975e053" valueTypeId="233db11d-fd38-4b2d-859d-68f3af11bb7c"/>
+    <managerType typeId="31270036-6c1d-42c6-98c7-a4b0b5eb4963" valueTypeId="cfc69a2c-8679-4eaf-8486-2b4f993a58e4"/>
+  </producedTypes>
+  <name>УтверждениеОкладовНадбавокЗаКлассныеЧины</name>
+  <synonym>
+    <key>ru</key>
+    <value>Утверждение окладов, надбавок за классные чины</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УтверждениеОкладовНадбавокЗаКлассныеЧины.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <name>Posted</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Date</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <format>
+      <key>ru</key>
+      <value>ДЛФ=D</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДЛФ=D</value>
+    </editFormat>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Number</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Утверждение окладов, надбавок за классные чины</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Утверждения окладов, надбавок за классные чины</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Day</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УтверждениеОкладовНадбавокЗаКлассныеЧины.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.УтверждениеОкладовНадбавокЗаКлассныеЧины.Form.ФормаСписка</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>InformationRegister.ОкладыНадбавкиПоКласснымЧинамРангам</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="1847d86a-9ba7-40f3-ae6d-87f68824236b">
+    <name>ДатаВступленияВСилу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата вступления в силу</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="c4bf64d7-5d85-4034-95bf-16c2f9158e9b">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="26316c04-6310-4e20-9ecc-45289b324ca3">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="229dd061-c61e-4ac2-a189-bb82f11479e3">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6acf0de8-2ff0-4948-b471-99772e535b49">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="a194a264-3a88-47f8-ae87-6c7333eec2b6">
+    <producedTypes>
+      <objectType typeId="2730e54f-453c-4709-af99-4360261ad5e4" valueTypeId="558a159d-6f33-4c0e-94f6-5b2ce9f149fc"/>
+      <rowType typeId="388fc8fc-be6e-4c26-8ff5-be703227578d" valueTypeId="845193a8-a1b4-4749-b36f-b7abd18d613e"/>
+    </producedTypes>
+    <name>ОкладыНадбавки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оклады, надбавки</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="72132518-4476-4374-8f50-18e6e5780414">
+      <name>КлассныйЧинРанг</name>
+      <synonym>
+        <key>ru</key>
+        <value>Классный чин, ранг</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.КлассныеЧиныРанги</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1320014c-155c-46c3-a0c3-b0d25ed3e63c">
+      <name>Размер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Размер</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>DefinedType.ЗначениеПоказателяРасчетаЗарплаты</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

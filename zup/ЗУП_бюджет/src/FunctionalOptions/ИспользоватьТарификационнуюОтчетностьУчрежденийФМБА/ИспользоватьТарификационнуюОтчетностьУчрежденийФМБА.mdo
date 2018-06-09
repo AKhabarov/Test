@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba7262d2-8152-4d25-9b1e-7ea9ba6464cc">
+  <name>ИспользоватьТарификационнуюОтчетностьУчрежденийФМБА</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать тарификационную отчетность учреждений ФМБА</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.ИспользоватьТарификационнуюОтчетностьУчрежденийФМБА</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ТарификационныеГруппыМедРаботников</content>
+  <content>InformationRegister.ТарификационныеГруппыДолжностейМедРаботников</content>
+  <content>Enum.ПоказателиТарификацииМедРаботников</content>
+  <content>InformationRegister.НастройкаПоказателейТарификацииМедРаботников</content>
+  <content>Report.ТарификационныеСпискиРаботниковУчрежденийФМБА</content>
+</mdclass:FunctionalOption>

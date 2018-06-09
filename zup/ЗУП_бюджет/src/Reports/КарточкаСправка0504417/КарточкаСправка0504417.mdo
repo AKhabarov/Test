@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7434ff19-78b0-4ea3-b816-d16c32a665d5">
+  <producedTypes>
+    <objectType typeId="ab8c73de-630a-4379-9b83-9caee67fa868" valueTypeId="9be4170a-5f80-4659-802c-2d781311ef84"/>
+    <managerType typeId="5d70fa5c-97e1-4e83-bc09-e30637676378" valueTypeId="75e1aec8-e1a9-4c05-a131-65f1a1cf2d48"/>
+  </producedTypes>
+  <name>КарточкаСправка0504417</name>
+  <synonym>
+    <key>ru</key>
+    <value>Карточка-справка (0504417)</value>
+  </synonym>
+  <comment></comment>
+  <mainDataCompositionSchema>Report.КарточкаСправка0504417.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="780ab4ba-46ae-4d4f-967b-80077a60f541">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="d7af7496-e6d6-401b-ade0-076b52ab8925">
+    <name>ПФ_MXL_Форма0504417</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточка-справка (0504417)</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="542f69f5-4c39-4052-953e-9b187826b843">
+    <name>ПФ_MXL_Форма0504417с2015</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточка-справка (0504417) с 2015 года</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Report>

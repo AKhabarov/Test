@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7594a90-6920-4e82-b824-989cfb6e1ea9">
+  <producedTypes>
+    <selectionType typeId="f126e08b-4742-473a-b088-c38401d6ec2b" valueTypeId="1f8bb559-d5d2-4ff9-82dc-51366ab9f12c"/>
+    <listType typeId="db4873c5-ad55-4b70-9306-6017e1484457" valueTypeId="2d68fb7d-47ea-48d4-8020-cc35e28e7d19"/>
+    <managerType typeId="475a0098-9ff9-49dd-aa06-76088bf7001f" valueTypeId="bdc842ba-4d3a-410c-83a1-1735e43f2fcb"/>
+    <recordSetType typeId="8f84ec3f-f6b8-4db9-9d9e-42caff31de41" valueTypeId="ae2312cd-73b3-4d62-96f3-a42bb9f3f72b"/>
+    <recordKeyType typeId="38d8cdbe-142a-46e4-ab11-2d2b2a2e245b" valueTypeId="957a48a0-42d7-4d71-b13e-3d89afc00c90"/>
+    <recordType typeId="f182540a-bfb1-46f6-90d2-c22480c5ab27" valueTypeId="1b4abf15-8962-4dfe-8d98-e8b8472c0e6b"/>
+    <recordManagerType typeId="a27f1650-3e2b-4feb-aa59-a0db592cc239" valueTypeId="5341a4e6-0629-45d5-8490-c5850570e3bb"/>
+  </producedTypes>
+  <name>ИспользованиеОбменаЗГУБГУ2ПоОрганизациям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование обмена ЗГУ 3.0 - БГУ 2.0 по организациям</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="3d69830c-3a5b-4532-92cb-7796be49e8ae">
+    <name>Используется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="07deef0d-e7de-4a50-a5c8-df506dc1f9ff">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

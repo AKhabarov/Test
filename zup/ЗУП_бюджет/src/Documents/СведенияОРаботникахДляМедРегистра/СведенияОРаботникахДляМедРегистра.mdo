@@ -1,0 +1,3310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cfde807b-707e-42de-b4ff-f2f541168c4c">
+  <producedTypes>
+    <objectType typeId="6d051223-412d-438d-a0e1-d0de95bc6945" valueTypeId="209e10fd-4eaf-4f68-a067-d7182c8601a3"/>
+    <refType typeId="afa94e75-bbaa-4a9a-8e87-ab448be13b86" valueTypeId="493dcf7e-065b-43af-9ff8-35a54591652a"/>
+    <selectionType typeId="eaa6d295-4f3a-4bf8-a568-6d7d084a3185" valueTypeId="b33b5c9f-9af4-4376-beef-f76436f2a1ce"/>
+    <listType typeId="b720cbc9-5a88-4b24-9043-399c15b17dbc" valueTypeId="c8f63e0b-5938-4d57-96d7-b0165e995a21"/>
+    <managerType typeId="0daf3d26-576b-420c-950d-ef6c9064fae1" valueTypeId="d63a51c6-caa3-4b8b-9a6e-591f2bca9345"/>
+  </producedTypes>
+  <name>СведенияОРаботникахДляМедРегистра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения о медицинских работниках </value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.СведенияОРаботникахДляМедРегистра.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <name>Posted</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Date</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <format>
+      <key>ru</key>
+      <value>ДЛФ=D</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДЛФ=D</value>
+    </editFormat>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Number</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Сведения о медицинских работниках </value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.СведенияОРаботникахДляМедРегистра.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.СведенияОРаботникахДляМедРегистра.Form.ФормаСписка</defaultListForm>
+  <posting>Deny</posting>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="a86a9417-fc0b-415e-86b8-f909dad43cce">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="fae66998-1a84-40a8-8573-cf616c2af6c4">
+    <name>ФайлСформирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл сформирован</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="41d604f6-4757-4c81-bd81-c12803d63e5f">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="8f1cc198-abc8-4007-89ac-d6a41bd7fedf">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment>Любая дополнительная информация</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="0e7d53e7-87a8-44f6-ae2b-7012f7112830">
+    <name>ДатаНачалаРасчетаФактическогоВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала расчета фактического времени</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДЛФ=D</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДЛФ=D</value>
+    </editFormat>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="d726a116-79f3-4591-bfdb-76a46fce312c">
+    <name>ДатаОкончанияРасчетаФактическогоВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания расчета фактического времени</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДЛФ=D</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДЛФ=D</value>
+    </editFormat>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="8c1dcc25-b46f-4f8b-afdd-de460f3f53fb">
+    <name>УИНОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор учреждения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>28</length>
+      </stringQualifiers>
+    </type>
+    <mask>@.@.@@@.@.@.@@.@.@@@.@@@.@@@</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="f4519d12-b676-4b6e-b810-1d3ed980d8e6">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ac119242-0595-4300-b664-618937ebcb70">
+    <name>ФормаСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма сотрудника</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0a425d60-e091-45b8-853f-06682018fa38">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="40460077-f9d0-4455-9cca-3878f92b61e9">
+    <producedTypes>
+      <objectType typeId="cf48eba1-30f5-4d25-b852-1d762c7971b8" valueTypeId="afd5736b-6d8c-4aff-b01c-1ab487fe6e9e"/>
+      <rowType typeId="7c2dc3e8-0d33-4b5f-a281-1211f2082247" valueTypeId="c98265bf-70e0-4f40-9737-1e18bfb81cfd"/>
+    </producedTypes>
+    <name>Образование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образование</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="30b975e8-daf5-4494-8b67-88526f99ff09">
+      <name>ФизическоеЛицо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Физическое лицо</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bb2ca076-b05c-4d59-b007-5a42e451c278">
+      <name>ВидОбразованияХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид образования характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfEducationType</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d67bd7c7-b247-43d3-91f6-fec77679916b">
+      <name>УчебноеЗаведениеХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Учебное заведение характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfEducationInstitution</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a29f5739-be96-48b5-851a-18b50231bceb">
+      <name>ГодОкончания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Год окончания</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5d1de1b7-90b2-45f0-a0c9-9ee335566059">
+      <name>СпециальностьХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Специальность характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfSpeciality</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="827ee92c-7d64-4448-9e87-4687c5f2cb32">
+      <name>Серия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Серия</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>25</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a3de9ef1-03e4-4795-9672-77a277351949">
+      <name>Номер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0bb548f8-812e-4056-b95c-707784581e83">
+      <name>СубъектРФЦелевогоНабораХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Субъект РФ целевого набора</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfTerritory</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="a363386a-ded8-4629-8e9e-e8b5818f2f56">
+    <producedTypes>
+      <objectType typeId="99deeef9-a08c-4581-a8a0-e597d98e7713" valueTypeId="02ea7be2-76c0-42a9-97c0-a0c05f9e1304"/>
+      <rowType typeId="78e88052-c609-46dc-8626-654ecb0c4c75" valueTypeId="b4a33f63-73df-4ceb-a5ae-db8464454aba"/>
+    </producedTypes>
+    <name>Сотрудники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудники</value>
+    </synonym>
+    <comment></comment>
+    <fillChecking>ShowError</fillChecking>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="6ca7dc40-bb20-420a-8479-36210396bcf6">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Отбор.ТекущаяОрганизация</name>
+        <field>Document.СведенияОРаботникахДляМедРегистра.Attribute.Организация</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>Отбор.ВАрхиве</name>
+        <value xsi:type="core:BooleanValue"/>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a6a1779f-8e07-4e8a-9728-1b99adbcf89f">
+      <name>ФизическоеЛицо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Физическое лицо</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1695348a-e67b-4fec-93a6-58109cd6855d">
+      <name>ТабельныйНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Табельный номер</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9c11e465-8359-4373-8173-b816c897c4a1">
+      <name>ДатаСоставления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата составления</value>
+      </synonym>
+      <comment>ChangeTime</comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="70ba442c-e268-43be-b7ba-393985d7d31e">
+      <name>Фамилия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Фамилия</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>40</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ef3a8d31-7168-48d8-a236-463273fcd47b">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>40</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="74581fd6-7519-49c4-819d-3285e6ffc225">
+      <name>Отчество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отчество</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>40</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="52fac772-296c-49d8-9f13-53fd0983571e">
+      <name>Пол</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пол</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>EnumRef.ПолФизическогоЛица</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3f0bddf6-1791-4746-aac5-b82b5a80b6fb">
+      <name>ДатаРождения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата рождения</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a5998845-12bc-43d4-925a-75cd90d31742">
+      <name>ДатаСмерти</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата смерти</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d44433f9-95eb-4cf8-9f34-8528c7450275">
+      <name>ДокументВидДокументаХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Характеристика типа документа</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Вид документа физического лица</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfDocumentType</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7c2ad2e1-9fc0-49a4-931e-257ef2e83c25">
+      <name>ДокументСерия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Серия</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>14</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Серия документа</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f972bac6-e6d0-41aa-9aca-fad63c4a7bf1">
+      <name>ДокументНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>14</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Номер документа</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ca2f5eb1-23b7-4222-be0e-c1165471acb0">
+      <name>ДокументДатаВыдачи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата выдачи</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дата выдачи документа</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bd14225e-5e7f-4d53-8b9c-2d05b5f3a74a">
+      <name>ДокументКемВыдан</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кем выдан</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Кем выдан документ</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1dcf534e-7c54-42ac-8fbe-b1828420f0e3">
+      <name>СтраховойНомерПФР</name>
+      <synonym>
+        <key>ru</key>
+        <value>СНИЛС</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>14</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Страховой номер ПФР</value>
+      </toolTip>
+      <mask>999-999-999 99</mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cc243c21-43dc-40ac-8726-f214596ce504">
+      <name>ИНН</name>
+      <synonym>
+        <key>ru</key>
+        <value>ИНН</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>12</length>
+        </stringQualifiers>
+      </type>
+      <mask>999999999999</mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f7907ba8-1161-4615-b202-48d068b2ba7c">
+      <name>АдресПоПропискеПредставление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Адрес по прописке представление</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>256</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d2467ec1-4dc9-48a7-9b54-270135cf5556">
+      <name>АдресПоПрописке</name>
+      <synonym>
+        <key>ru</key>
+        <value>Адрес по прописке</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2e45ab3f-c1a3-4a67-a278-f92d1ea98bc1">
+      <name>ДатаРегистрации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата регистрации</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d83e211d-3327-4edf-9546-0794942e733b">
+      <name>ТелефонПредставление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Телефон представление</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>55</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="68a70b50-b570-433b-9746-1edf5e35a0db">
+      <name>Телефон</name>
+      <synonym>
+        <key>ru</key>
+        <value>Телефон</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1fe1f846-6fa4-47c7-bbf8-154b84ccfd76">
+      <name>СемейноеПоложениеХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Характеристика семейное положение</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Вид документа физического лица</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfMarriage</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ba6e0dc2-1fe3-467d-a9d0-f79a218dc147">
+      <name>ГражданствоХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Характеристика гражданство</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfCitizenship</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c60a8be1-959b-436d-b65c-f0fd35529e10">
+      <name>IsRealPerson</name>
+      <synonym>
+        <key>ru</key>
+        <value>Is real person</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="628177e9-c540-44f0-993b-b2bbb3c6e6fc">
+      <name>НаличиеЛичногоАвтомобиля</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наличие личного автомобиля</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e5f20cdb-3408-4d8b-80be-cf3297611006">
+      <name>НаличиеДетейМладше16Лет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наличие детей младше16 лет</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="715536a7-ad25-4895-9e30-fe8feb20cc9f">
+    <producedTypes>
+      <objectType typeId="863e1938-ee11-4d39-b6ba-7189f5126761" valueTypeId="d28eaa14-2aaf-41f5-a357-4223c6855fdb"/>
+      <rowType typeId="ba2924e9-ff6f-4bff-bd26-467d51830784" valueTypeId="3444600b-376d-42d1-887f-7d0c9ccc7ae1"/>
+    </producedTypes>
+    <name>Награды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Награды</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="3ef07e9a-3903-449f-a9f8-97e58df05ee1">
+      <name>ФизическоеЛицо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Физическое лицо</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="67dd120c-d03f-4516-a65c-0ffb4d700abb">
+      <name>Наименование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="525647ab-3fde-4f0e-b7f3-598268882fbc">
+      <name>НаградаХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Награда характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Вид документа физического лица</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfNomination</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a3dc7f64-47d4-425b-9bb6-ad7d5cb00eaa">
+      <name>НомерПриказа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер приказа</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ec501998-9d65-49f7-beb6-e956629ead52">
+      <name>ДатаПриказа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата приказа</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="a96c2f2d-3f2b-4936-aeb5-baea48aa9099">
+    <producedTypes>
+      <objectType typeId="aef9d89e-9a10-4d17-ae0f-729c96a72090" valueTypeId="9cc1b24d-cced-4b55-b39b-6de9688515bd"/>
+      <rowType typeId="ea8760de-22ae-4c80-be79-47968770f720" valueTypeId="e5f19684-3387-4ef4-b535-9f21640dc3db"/>
+    </producedTypes>
+    <name>Сертификаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сертификаты</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="6327bdad-21e5-4b0c-b0ec-674d7b39a3b3">
+      <name>ФизическоеЛицо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Физическое лицо</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="943b4536-2bb9-4876-a43d-779a1f1d399b">
+      <name>УчебноеЗаведениеХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Учебное заведение характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfEducationInstitution</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c55af356-ad9b-491c-aa72-7b7e6f2b2395">
+      <name>СпециальностьХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Специальность характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfCertificateSpeciality</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e1ac1930-a5a9-4ea6-b44a-5b71d94f2179">
+      <name>ДатаПолучения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата получения</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="24d90eae-9357-4d70-bec2-7727eee590f9">
+      <name>Серия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Серия</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>25</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="db09373d-127b-4e1e-8a88-c0e5e30f5f06">
+      <name>Номер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер сертификата</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="401aa626-936d-4d97-8242-23c337b92b55">
+    <producedTypes>
+      <objectType typeId="9d8fa41f-ab66-446b-b35f-67eaf28acb06" valueTypeId="cf21cd50-1cf3-4509-b2d5-ebcb72dfa26c"/>
+      <rowType typeId="37867331-1024-4896-b462-c535e686967a" valueTypeId="ced1a858-2949-46e1-91a1-e651d86d9a02"/>
+    </producedTypes>
+    <name>Переподготовка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переподготовка</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="b7d59086-1b1f-44a1-a22a-a4f1563de61b">
+      <name>ФизическоеЛицо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Физическое лицо</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="81d0f2ca-e00b-474b-ad75-c4fa5f724eef">
+      <name>УчебноеЗаведениеХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Учебное заведение характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfEducationInstitution</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d22f91dc-7d5b-4885-b682-ecc983a676d1">
+      <name>СпециальностьХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Специальность характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfSpeciality</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f289ea3e-3e7a-4194-8d55-daee22960a5e">
+      <name>ГодПрохождения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Год прохождения</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a6675afc-2ae4-4edc-beff-a50d5710ff76">
+      <name>Серия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Серия</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>25</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1909360a-3b27-4b95-b680-40caf13b6ccd">
+      <name>Номер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9e0ffcfe-c4d9-4b2a-864e-675fdb2abd08">
+      <name>КоличествоЧасов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество часов</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="700e020e-862f-4091-94bb-f5f4c7a6f074">
+    <producedTypes>
+      <objectType typeId="72dd819f-d1fc-47a9-93df-f7761145e46e" valueTypeId="b1473736-f9cf-487d-b403-64c2328c5381"/>
+      <rowType typeId="a47b84d0-21a0-4714-a916-fe962abd236d" valueTypeId="cfeb6f97-4296-4277-b719-e8c761e02c4a"/>
+    </producedTypes>
+    <name>ПовышениеКвалификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Повышение квалификации</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="72c68ce1-0a19-4f3f-9c07-a935f5d4fa4e">
+      <name>ФизическоеЛицо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Физическое лицо</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4060d5ab-3333-45ed-ac74-4cfa05416e0e">
+      <name>УчебноеЗаведениеХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Учебное заведение характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfEducationInstitution</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9a0f6b4f-51c0-41b2-863b-f0ce1489e4db">
+      <name>НаименованиеКурса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цикл</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="56cacbec-c395-4a88-acc7-17d5d0a497ae">
+      <name>СпециальностьХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Специальность характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfSpeciality</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a9ffe73d-f183-4c03-9ee7-d9f0ce93f5e6">
+      <name>ГодПрохождения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Год прохождения</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b2586942-5961-4df2-9fc8-9206de9546dd">
+      <name>Серия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Серия</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>25</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="61578c95-c806-4392-8b5d-a31c3c166ea8">
+      <name>Номер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="401062a9-3f26-4e03-ab69-39c7a5c9be71">
+      <name>ДатаПолучения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата получения</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="247f86ac-83ce-470a-a696-cf87f5223333">
+      <name>КоличествоЧасов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество часов</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="fd6a8e65-cf08-4bb2-a327-b067e976fc43">
+    <producedTypes>
+      <objectType typeId="40a61669-3bef-4c8c-bb7a-e7ebfb860175" valueTypeId="36af56de-cc9e-4c0f-94da-0a1ef6af00a1"/>
+      <rowType typeId="efac6e9a-3bc5-4b6c-96e2-8fb36b24baf8" valueTypeId="bbe4e163-a033-4ffc-a849-46f541e32bad"/>
+    </producedTypes>
+    <name>ПослевузовскоеОбразование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Послевузовское образование</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="d767c8e3-de65-484e-93c0-99d4d853ad27">
+      <name>ФизическоеЛицо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Физическое лицо</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6fbf9673-4712-4e20-a91f-28e81dc9e14c">
+      <name>УчебноеЗаведениеХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Учебное заведение характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfEducationInstitution</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="842211e8-4f75-4237-8d40-1f789ef5e7d8">
+      <name>ВидОбразованияХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид образования характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfPostGraduationEducationType</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b03ab7fc-8269-4b56-a05a-a3750ab812e5">
+      <name>СпециальностьХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Специальность характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfSpeciality</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3992789f-6571-43fd-b576-02b9f1b74a89">
+      <name>Начало</name>
+      <synonym>
+        <key>ru</key>
+        <value>Начало прохождения</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="29b0f61e-fd98-487c-8bf7-84a5706fba31">
+      <name>Окончание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Окончание прохождения</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9dc0bc6a-2226-4999-a1c7-9a0e03a7b5fc">
+      <name>УченаяСтепеньХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ученая степень характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfAcademicDegree</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="10f7adb4-a905-4674-82aa-6f634ad21518">
+      <name>Серия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Серия удостоверения</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>25</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3ca9dc31-fda0-4a21-9b22-669bf4d2416d">
+      <name>Номер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер удостоверения</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="30034003-e5aa-4c10-b8fc-6094874f5c5b">
+      <name>ДатаПолучения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата получения</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="78d72117-79ef-4078-b7e3-026c40f00a3f">
+      <name>СубъектРФЦелевогоНабораХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Субъект РФ целевого набора</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfTerritory</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="5c1f3ca2-6b37-41e6-8e4a-fbc50220dbed">
+    <producedTypes>
+      <objectType typeId="34d6dd8b-5836-46e2-a90f-cf69f231f7d3" valueTypeId="dbb2b47c-1169-467d-929a-4816f1ef20c1"/>
+      <rowType typeId="e072bc13-dd5c-4669-9d10-04614f206231" valueTypeId="a6163ac5-3ab0-4449-84e4-2576a7610d7f"/>
+    </producedTypes>
+    <name>КвалификационныеКатегории</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квалификационные категории</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="835d0e09-2ebb-4087-b2c7-3298091df934">
+      <name>ФизическоеЛицо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Физическое лицо</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="aeae9f77-8489-49ca-a9cc-b98862ca58f0">
+      <name>КвалификационнаяКатегорияХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Квалификационная категория характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfQualificationCategory</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="483b15ee-c54b-49fa-9c1f-ca914dd4483e">
+      <name>СпециальностьХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Специальность характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfSpeciality</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3c505108-afb6-4a66-9bc3-d12f202a317d">
+      <name>ДатаПрисвоения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата присвоения</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="d8f99c5d-9cc8-4bd8-9d30-873f537c1483">
+    <producedTypes>
+      <objectType typeId="f0e78eed-b895-4db0-90ea-ca113cf53edc" valueTypeId="f53201ec-c2e3-4d03-82c8-fbf8e81693a8"/>
+      <rowType typeId="a2b6e4e2-61f0-43c2-95d3-afeebf0e9d11" valueTypeId="a52951e1-ba94-4017-ab11-0129e2e55b3a"/>
+    </producedTypes>
+    <name>Неявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неявки</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="ddd894a0-c247-4a9d-9a6c-1eb1c689be23">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Отбор.Организация</name>
+        <field>0:912c280e-2424-4ff1-9c43-587471eda1ff</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>Отбор.ВАрхиве</name>
+        <value xsi:type="core:BooleanValue"/>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7c487e7d-d4c5-4a33-a7a4-90f8daad82da">
+      <name>ДатаНачала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата начала</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6928bced-ccbe-4f70-a081-b5022dd87f31">
+      <name>ДатаОкончания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата окончания</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c2f090d3-e873-4742-b4ac-6a815cd9650b">
+      <name>СостояниеХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Состояние неявки характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Состояние сотрудника</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfSkipPaymentReason</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="5bff83b3-5dcd-46d7-8b38-d105e5b38ec5">
+    <producedTypes>
+      <objectType typeId="89f3f344-1fe3-4a81-8c77-f7e2363224c3" valueTypeId="56d6d014-960b-4aa4-ae35-5dbefc58c34c"/>
+      <rowType typeId="cbf500f7-6221-4c7f-aa39-d81a77ddb899" valueTypeId="29674be5-5324-43b0-aa4b-63f18218f57b"/>
+    </producedTypes>
+    <name>Невыходы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Невыходы</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="351f4a22-8acf-424b-931b-6388647b5fde">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Отбор.Организация</name>
+        <field>0:912c280e-2424-4ff1-9c43-587471eda1ff</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>Отбор.ВАрхиве</name>
+        <value xsi:type="core:BooleanValue"/>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4f60f75f-98e4-426d-b0d1-fad73b3d7f78">
+      <name>ДатаНачала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата начала</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="977ec539-03a3-4b0c-827c-24c06458a0ba">
+      <name>ДатаОкончания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата окончания</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="553378a6-a5fb-4a88-81f9-02c7c780567c">
+      <name>СостояниеХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Состояние отпуска и командировки характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Состояние сотрудника</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfAbsenceType</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="69815b81-dfaf-436d-b1e6-2394b4fc21f9">
+    <producedTypes>
+      <objectType typeId="5c6c64b0-1471-4c21-bb67-319c8236f1e7" valueTypeId="871da292-74cd-4a01-a139-da07b6e6bc6d"/>
+      <rowType typeId="8f4fb635-9912-48cf-9e50-2c03aba949ce" valueTypeId="b7109a59-e000-4661-b43e-dbc069bebb1e"/>
+    </producedTypes>
+    <name>ЛичноеДело</name>
+    <synonym>
+      <key>ru</key>
+      <value>Личное дело</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="cfeaa0af-67f0-4ab5-9bdb-cb9007285d8f">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Отбор.Организация</name>
+        <field>0:912c280e-2424-4ff1-9c43-587471eda1ff</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>Отбор.ВАрхиве</name>
+        <value xsi:type="core:BooleanValue"/>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4d4d4a94-4a6c-4d16-b650-41fe2fa43bb2">
+      <name>ДокументОснованиеНачалаЗаписи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ основание начала записи</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>DocumentRef.ИзменениеУсловийОплатыОтпускаПоУходуЗаРебенком</types>
+        <types>DocumentRef.КадровыйПеревод</types>
+        <types>DocumentRef.БольничныйЛист</types>
+        <types>DocumentRef.НачальнаяШтатнаяРасстановка</types>
+        <types>DocumentRef.Увольнение</types>
+        <types>DocumentRef.ПеремещениеВДругоеПодразделение</types>
+        <types>DocumentRef.ВозвратИзОтпускаПоУходуЗаРебенком</types>
+        <types>DocumentRef.КадровыйПереводСписком</types>
+        <types>DocumentRef.ПриемНаРаботу</types>
+        <types>DocumentRef.УвольнениеСписком</types>
+        <types>DocumentRef.ОтпускПоУходуЗаРебенком</types>
+        <types>DocumentRef.ПриемНаРаботуСписком</types>
+        <types>DocumentRef.ПереносДанных</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="68e67f36-a9da-43d6-b406-98746fdd4dea">
+      <name>ДокументОснованиеОкончанияЗаписи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ основание окончания записи</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>DocumentRef.ИзменениеУсловийОплатыОтпускаПоУходуЗаРебенком</types>
+        <types>DocumentRef.КадровыйПеревод</types>
+        <types>DocumentRef.БольничныйЛист</types>
+        <types>DocumentRef.НачальнаяШтатнаяРасстановка</types>
+        <types>DocumentRef.Увольнение</types>
+        <types>DocumentRef.ПеремещениеВДругоеПодразделение</types>
+        <types>DocumentRef.ВозвратИзОтпускаПоУходуЗаРебенком</types>
+        <types>DocumentRef.КадровыйПереводСписком</types>
+        <types>DocumentRef.ПриемНаРаботу</types>
+        <types>DocumentRef.УвольнениеСписком</types>
+        <types>DocumentRef.ОтпускПоУходуЗаРебенком</types>
+        <types>DocumentRef.ПриемНаРаботуСписком</types>
+        <types>DocumentRef.ПереносДанных</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="85003d84-ee99-4827-8b54-2f363e56db99">
+      <name>КоличествоСтавок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество ставок</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ce45bcc2-4539-4777-a4b5-276105618c08">
+      <name>ДатаНачалаЗаписи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата начала записи</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="663b2d00-e433-43df-8850-e40d0257d1d5">
+      <name>ДатаОкончанияЗаписи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата окончания записи</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="13888e48-5942-40e9-9a3f-905b9ead2af0">
+      <name>НомерПриказаНачалаЗаписи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер приказа начала записи</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>11</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c02105e9-ada4-4368-8b73-c6603ee613f1">
+      <name>НомерПриказаОкончанияЗаписи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер приказа окончания записи</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>11</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="013791a4-9296-4800-8d81-c7a6cbb1e7a5">
+      <name>ВидМедицинскойПомощиХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид медицинской помощи характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfMedicalCare</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9e42992e-4044-46c6-ab9e-5d1dd226c35c">
+      <name>УсловияМедицинскойПомощиХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Условия медицинской помощи характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfMedicalCondition</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4db09113-8bd9-4667-ba1f-4177bea812d3">
+      <name>ВидДолжностиХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид должности характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfPosition</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ebedd763-d72a-45e9-98a3-a250819888cc">
+      <name>ТипПодразделенияХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип подразделения характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfSubdivision</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2a74b9b2-9ab5-49ef-9e8c-e0bc0cbd66a8">
+      <name>ТипНачалаЗаписиХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип начала записи характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfRecordTypeIn</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="426e6e22-c724-4829-a11e-b778857dbdf5">
+      <name>ТипОкончанияЗаписиХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип окончания записи характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfRecordTypeOut</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3bfb6a1a-b0ca-4feb-b558-8b5612ef10f8">
+      <name>РежимРаботыХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Режим работы характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfRegime</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fc207f21-9b72-4891-bc1c-78fc3743f4ec">
+      <name>НаименованиеПодразделения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование подразделения</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="51d9d9ff-eebf-4764-8366-9339c9a56880">
+      <name>ОтношениеКВоеннойСлужбеХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отношение к военной службе характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfMilitary</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0fb7109c-b026-410b-8ae1-3a07db5e381e">
+      <name>ТипЗанятияДолжностиХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип занятия должности характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfPositionType</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5886f3eb-2c76-4579-9274-c3b5144b34ac">
+      <name>ДолжностьХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Должность характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfPost</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7f0e7576-5740-4f5e-bc12-0b266a48555c">
+      <name>ПрибылХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип начало записи дополнительно характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfRecordTypeInAdd</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="339bc537-aa05-4d22-83bd-f4ef02960087">
+      <name>ДвижениеКадровНачалоХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Прибыл внутреннее перемещение характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfRecordTypeMoveInOrg</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="778a83aa-8744-4514-9bda-c09872dc02cf">
+      <name>ПрибылПослеОбученияХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Прибыл после обучения характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfRecordTypeInStudType</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9357f070-99ef-4f80-9da3-67d4eea854a4">
+      <name>ПрибылЦелевойНаборХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Прибыл целевой набор характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfYesNo</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c1e5241b-e994-4b69-a779-c7afe5cadd3d">
+      <name>ПрибылИзСтраныХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Прибыл из страны характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfCountry</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="38d299c5-2ebb-42e1-9c4b-c3981ee8468f">
+      <name>ПрибылИзДругогоСубъектаРФ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Прибыл из другого субъекта РФ</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfTerritory</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fbd0b933-f0da-4fd1-a240-e5dd0740ae79">
+      <name>ДвижениеКадровОкончаниеХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип окончание записи движения внутреннее перемещение характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfRecordTypeMoveOutOrg</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="903526d3-70b8-4a65-b176-18fdee0638c5">
+      <name>ОснованиеУвольненияХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Основание увольнения характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfRecordTypeOutDel</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="abd49880-0ba9-49e6-8160-6f5b0157f2f0">
+      <name>ВыбылВСтрануХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выбыл в страну характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfCountry</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d28aec06-ae33-4f02-8f49-e89d900e6b33">
+      <name>ВыбылВДругойСубъектРФ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выбыл в другой субъект РФ</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfTerritory</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="d9f8a48b-0343-4ad3-87a4-4d93b34f1d0d">
+    <producedTypes>
+      <objectType typeId="0e919676-f293-4d83-b7ef-fe1824e1fd24" valueTypeId="6ced0c1f-f130-4eec-a7d8-bea03c77f579"/>
+      <rowType typeId="4a2b8070-4e48-47e5-9c07-d9678ff6f360" valueTypeId="87dc9924-3770-458c-85d8-eb71d17698f9"/>
+    </producedTypes>
+    <name>ФактическиОтработанноеВремя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фактически отработанное время</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="ea170d66-dfd4-47d0-a305-243336e43725">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Отбор.Организация</name>
+        <field>0:912c280e-2424-4ff1-9c43-587471eda1ff</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>Отбор.ВАрхиве</name>
+        <value xsi:type="core:BooleanValue"/>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e92ef878-76b2-49bc-bb6d-a98fcef7add8">
+      <name>ДатаНачала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата начала</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7af88205-5aae-48b6-bea1-906dd0f679fc">
+      <name>ДатаОкончания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата окончания</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="915eb597-593f-4fd5-b083-cefad2059dd8">
+      <name>КоличествоЧасов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество часов</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="ac6fd9f6-a194-42d8-8b4e-bfeceaea61a5">
+    <producedTypes>
+      <objectType typeId="94d77367-fb11-4035-b62b-04a78438afd7" valueTypeId="bae53ec6-7336-4903-aa4c-e46954bb3115"/>
+      <rowType typeId="56b470d6-e0d8-4b4c-8bfa-9d1b1ce55b88" valueTypeId="680cf7b6-1367-491a-8227-77acd3c33613"/>
+    </producedTypes>
+    <name>УдалитьНеявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Неявки</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="570b582d-e901-4fcd-a120-079d57c47f83">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Отбор.Организация</name>
+        <field>0:912c280e-2424-4ff1-9c43-587471eda1ff</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>Отбор.ВАрхиве</name>
+        <value xsi:type="core:BooleanValue"/>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="23ccf903-40e9-45cc-a7fb-9695c17c678b">
+      <name>ДатаНачала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата начала</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2c1b792c-d435-4275-bc21-7321cc19dfe6">
+      <name>ДатаОкончания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата окончания</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cdab7ba8-4152-4e21-a071-243a1f7481c7">
+      <name>СостояниеНеявкиХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Состояние неявки характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Состояние сотрудника</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfSkipPaymentReason</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="240be4af-45da-4751-a96c-3e970c1e2a1d">
+      <name>СостояниеОтпускаИКомандировкиХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Состояние отпуска и командировки характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Состояние сотрудника</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfAbsenceType</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="9cf72f6c-366f-4c31-80ac-265c6e4cfba0">
+    <producedTypes>
+      <objectType typeId="82f27318-54f9-43f4-9ec4-f56d6c2ce724" valueTypeId="492bba08-1a6c-4b04-b18a-9db162dadd0c"/>
+      <rowType typeId="e9ba1244-e7c7-49fe-8478-b108bbcfa054" valueTypeId="e490eb67-c797-4dde-86e5-da1769eaa37b"/>
+    </producedTypes>
+    <name>УдалитьОбразованиеФизическихЛиц</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Образование физических лиц</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="51da1cb7-49de-4058-a8aa-25080f316b26">
+      <name>ФизическоеЛицо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Физическое лицо</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c71157eb-48dd-4926-9dea-5767665dbe6f">
+      <name>ВидОбразованияХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид образования характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfEducationType</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a55994cb-5484-4685-ba51-5f170f4909ca">
+      <name>УчебноеЗаведениеХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Учебное заведение характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfEducationInstitution</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a72c2c1e-649b-4110-a049-9b5183006e35">
+      <name>СпециальностьХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Специальность характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfSpeciality</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7867803a-2108-447d-8a15-00e72a3b4e9f">
+      <name>Серия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Серия</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>25</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="88b206e9-ad1b-4d8a-9056-6b7c0c187eda">
+      <name>Номер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="efb5f5cf-44db-43df-891b-746860d8779a">
+      <name>СубъектРФЦелевогоНабораХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Субъект РФ целевого набора</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfTerritory</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="264ce7f8-6b72-4b82-b6ea-6d9ed275726a">
+      <name>ВидПослевузовскогоОбразованияХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид послевузовского образования характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfPostGraduationEducationType</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="955cf926-fcb1-4b35-acc0-b7e258d0787e">
+      <name>СпециальностьСертификатаХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Специальность сертификата характеристика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЭлементыКлассификаторовМедРегистра</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Владелец</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.КлассификаторыМедРегистра.ArrayOfCertificateSpeciality</value>
+        </value>
+      </choiceParameters>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d8a84ee0-9924-4d81-8f1a-f93b165a5abb">
+      <name>ДатаВыдачи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата выдачи</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="83220f6b-5b2a-4fb7-9bdb-30f13f9c98ba">
+      <name>Квалификация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Квалификация</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d2d3a0a3-a653-4d41-b9b8-5cc13111b10c">
+      <name>Начало</name>
+      <synonym>
+        <key>ru</key>
+        <value>Начало</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="aaa3af97-88db-4265-a886-0187125bd720">
+      <name>Окончание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Окончание</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="588aa86e-cfcb-4040-bf3e-4a287715f6c1">
+      <name>НаименованиеКурса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование курса</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="da081a63-d9e9-473d-9bd3-ea40adc5decd">
+      <name>КоличествоЧасов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество часов</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="aad43716-b1f9-4d1d-91c4-37ff2ae977e8">
+      <name>ВидОбразованияМедРаботника</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид образования мед работника</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>1</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9dead89f-f78a-4793-b7f6-4bd5661b4086">
+  <name>ОбменЗГУБГУ2ЗарегистрироватьУдаление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с Бухгалтерия государственного учреждения, редакция 2.0 - регистрация удаления объектов</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>CatalogObject.СтраныМира</types>
+    <types>CatalogObject.СтатьиРасходовЗарплата</types>
+    <types>CatalogObject.СтатьиФинансированияЗарплата</types>
+    <types>CatalogObject.СпособыОтраженияЗарплатыВБухУчете</types>
+    <types>CatalogObject.ФизическиеЛица</types>
+    <types>CatalogObject.Организации</types>
+    <types>DocumentObject.ОтражениеЗарплатыВБухучетеБюджетныхУчреждений</types>
+    <types>CatalogObject.ИсточникиФинансовогоОбеспечения</types>
+    <types>CatalogObject.ВидыКонтактнойИнформации</types>
+    <types>CatalogObject.ВидыДокументовФизическихЛиц</types>
+    <types>CatalogObject.ПодразделенияОрганизаций</types>
+    <types>DocumentObject.НачислениеОценочныхОбязательствПоОтпускам</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.ОбменЗГУБГУ2События.ЗарегистрироватьУдаление</handler>
+</mdclass:EventSubscription>

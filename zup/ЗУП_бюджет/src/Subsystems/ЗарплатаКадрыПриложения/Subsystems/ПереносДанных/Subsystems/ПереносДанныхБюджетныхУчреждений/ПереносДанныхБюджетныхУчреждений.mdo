@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a140749-a74b-461a-8567-efe37e24e364">
+  <name>ПереносДанныхБюджетныхУчреждений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перенос данных бюджетных учреждений</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonTemplate.ЗарплатаКадрыПереносДанныхИзМЗКБУ10</content>
+  <content>CommonTemplate.ЗарплатаКадрыПереносДанныхИзЗБУ10</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПриложения.Subsystem.ПереносДанных</parentSubsystem>
+</mdclass:Subsystem>

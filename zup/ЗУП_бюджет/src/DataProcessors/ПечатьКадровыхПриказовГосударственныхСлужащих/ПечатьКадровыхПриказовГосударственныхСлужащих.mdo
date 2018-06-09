@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91904cdf-948d-4f4b-bfe4-c1e6fef74c40">
+  <producedTypes>
+    <objectType typeId="31f54d17-6a6e-4bef-b7fa-ca240210936f" valueTypeId="9df13aac-b749-4b18-ae07-939aacc4f813"/>
+    <managerType typeId="e553ba34-515b-45a6-832c-0713b863f309" valueTypeId="fbc625ad-6ef5-48c2-be1a-242fbaf63dfc"/>
+  </producedTypes>
+  <name>ПечатьКадровыхПриказовГосударственныхСлужащих</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать кадровых приказов государственных служащих</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="8ba92ed6-3593-4f4d-a918-295043b8cb0c">
+    <name>ПФ_MXL_СлужебныйКонтрактГосударственногоСлужащего</name>
+    <synonym>
+      <key>ru</key>
+      <value>Служебный контракт государственного служащего</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="7eec485b-3788-4350-b0fa-ba8a338caa81">
+    <name>ПФ_MXL_АттестационныйЛистГосударственногоСлужащего</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аттестационный лист государственного служащего</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="8811060c-d937-4ad2-add4-6e1a62798a4b">
+    <name>ПФ_MXL_ПриказОФормированииАттестационнойКомиссииГосударственныхСлужащих</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приказ о формировании аттестационной комиссии</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="2fd06fdc-cf6f-4b9b-bc52-3b59bd107ca8">
+    <name>ПФ_MXL_ГрафикАттестацииГосударственныхСлужащих</name>
+    <synonym>
+      <key>ru</key>
+      <value>График аттестации сотрудников</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="01f52a5a-e3af-4be2-82af-ef77e388859a">
+    <name>ПФ_MXL_ПротоколЗаседанияАттестационнойКомиссии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Протокол заседания аттестационной комиссии</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:DataProcessor>
