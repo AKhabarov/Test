@@ -4740,6 +4740,7 @@
   <catalogs>Catalog.Справочник</catalogs>
   <catalogs>Catalog.Справочник1</catalogs>
   <catalogs>Catalog.Справочник2</catalogs>
+  <catalogs>Catalog.Справочник4</catalogs>
   <documents>Document.АвансовыйПлатежИностранцаПоНДФЛ</documents>
   <documents>Document.АктПриемкиВыполненныхРаботОказанныхУслуг</documents>
   <documents>Document.АктПроверкиСтраховыхВзносов</documents>
