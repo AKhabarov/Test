@@ -9,14 +9,14 @@
     <listType typeId="4a0ae55e-f9da-421f-9664-dbfc6190727b" valueTypeId="161ce784-ae7c-4147-ad0c-6fe47f61c291"/>
     <managerType typeId="678b46b6-32c1-4aa3-8085-ce75c8faeccb" valueTypeId="171d813a-753e-4a5e-b03c-4d646b2538f0"/>
   </producedTypes>
-  <name>Справочник7</name>
+  <name>Справочник8</name>
   <synonym>
     <key>ru</key>
-    <value>Справочник7</value>
+    <value>Справочник8</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Справочник7.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.Справочник7.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Справочник8.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Справочник8.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
