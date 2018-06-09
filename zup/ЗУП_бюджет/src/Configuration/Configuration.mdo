@@ -4740,7 +4740,11 @@
   <catalogs>Catalog.Справочник</catalogs>
   <catalogs>Catalog.Справочник1</catalogs>
   <catalogs>Catalog.Справочник2</catalogs>
+<<<<<<< HEAD
   <catalogs>Catalog.Справочник4</catalogs>
+=======
+  <catalogs>Catalog.Справочник3</catalogs>
+>>>>>>> branch 'master' of https://github.com/AKhabarov/Test
   <documents>Document.АвансовыйПлатежИностранцаПоНДФЛ</documents>
   <documents>Document.АктПриемкиВыполненныхРаботОказанныхУслуг</documents>
   <documents>Document.АктПроверкиСтраховыхВзносов</documents>
