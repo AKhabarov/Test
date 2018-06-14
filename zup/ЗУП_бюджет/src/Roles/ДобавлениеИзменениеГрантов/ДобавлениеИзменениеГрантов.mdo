@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f682451-daec-43f2-b367-dad270bbe83a">
-  <name>ДобавлениеИзменениеГрантов</name>
-  <synonym>
-    <key>ru</key>
-    <value>Добавление изменение грантов</value>
-  </synonym>
-  <comment></comment>
-</mdclass:Role>

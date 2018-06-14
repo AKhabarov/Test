@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f07886f9-0bf3-4b52-82f6-a19743523957">
-  <name>ИспользованиеТарификационнойОтчетностиУчрежденийФМБА</name>
-  <synonym>
-    <key>ru</key>
-    <value>Использование тарификационной отчетности учреждений ФМБА</value>
-  </synonym>
-  <comment></comment>
-</mdclass:Role>

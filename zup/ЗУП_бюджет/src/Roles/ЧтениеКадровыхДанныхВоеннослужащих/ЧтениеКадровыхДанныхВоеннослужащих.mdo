@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34cd38a4-f9d9-4a42-9042-85f6faccd81c">
-  <name>ЧтениеКадровыхДанныхВоеннослужащих</name>
-  <synonym>
-    <key>ru</key>
-    <value>Чтение кадровых данных военнослужащих</value>
-  </synonym>
-  <comment></comment>
-</mdclass:Role>

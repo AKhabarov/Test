@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9af353c-2f6f-408d-ac80-f361fc231ae8">
-  <name>ЧтениеКлассныхЧиновРангов</name>
-  <synonym>
-    <key>ru</key>
-    <value>Чтение классных чинов рангов</value>
-  </synonym>
-  <comment></comment>
-</mdclass:Role>

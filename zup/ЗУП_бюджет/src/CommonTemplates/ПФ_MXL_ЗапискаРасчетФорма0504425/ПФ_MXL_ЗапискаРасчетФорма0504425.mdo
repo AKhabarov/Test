@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e339025-e1a7-4230-98e1-19a8e84c5727">
-  <name>ПФ_MXL_ЗапискаРасчетФорма0504425</name>
-  <synonym>
-    <key>ru</key>
-    <value>Записка-расчет (форма 0504425)</value>
-  </synonym>
-  <comment></comment>
-</mdclass:CommonTemplate>

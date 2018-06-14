@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4583bf5-05f1-4245-92e2-c58a2993b08c">
-  <name>ДобавлениеИзменениеКадровыхДанныхВоеннослужащих</name>
-  <synonym>
-    <key>ru</key>
-    <value>Добавление изменение кадровых данных военнослужащих</value>
-  </synonym>
-  <comment></comment>
-</mdclass:Role>

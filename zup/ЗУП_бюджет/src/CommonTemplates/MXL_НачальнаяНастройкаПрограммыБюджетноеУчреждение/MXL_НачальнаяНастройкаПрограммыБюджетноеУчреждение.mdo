@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="602ab9b5-798d-4cd1-85d8-66a1ff2181da">
-  <name>MXL_НачальнаяНастройкаПрограммыБюджетноеУчреждение</name>
-  <synonym>
-    <key>ru</key>
-    <value>Начальная настройка программы</value>
-  </synonym>
-  <comment></comment>
-</mdclass:CommonTemplate>

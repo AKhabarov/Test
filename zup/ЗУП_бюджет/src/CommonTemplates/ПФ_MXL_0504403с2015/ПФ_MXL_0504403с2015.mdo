@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba580e94-218d-4a17-b2a2-5e6be708f080">
-  <name>ПФ_MXL_0504403с2015</name>
-  <synonym>
-    <key>ru</key>
-    <value>Платежная ведомость (0504403) с 2015 года</value>
-  </synonym>
-  <comment></comment>
-</mdclass:CommonTemplate>
